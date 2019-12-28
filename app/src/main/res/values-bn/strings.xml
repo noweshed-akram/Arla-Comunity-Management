@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Arla</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="about">আমাদের সম্পর্কে</string>
+    <string name="arla_strated_in_1880_narla_foods_is_a_cooperative_and_farmer_owned_dairy_ncompany_working_with_11_200_farmers_all_over_europe">Arla যাত্রা শুরু ১৮৮০ তে।\nArla ফুডস একটি সমবায় ও কৃষক মালিকানাধীন দুগ্ধ কোম্পানি,\nকাজ করে  যাচ্ছে সারা ইউরোপ জুড়ে ১১,২০০ কৃষকের সাথে</string>
+    <string name="dano_mom">Dano Mom</string>
+    <string name="nutrition_solution_for_pre_pregnent_npregnent_and_lactating_mothers">গর্ভবতী ও স্তনদায়ী মায়েদের জন্যে\nপুষ্টির সমাধান।</string>
+    <string name="deelac">Deelac</string>
+    <string name="the_only_infant_formula_with_prebiotics_nbest_nutrition_solution_for_infants_who_ndon_t_receive_breast_milk">এক মাত্র প্রিবায়োটিক্স: যুক্ত শিশুদের দুধ;\nযে শিশুরা মায়ের দুধ পায়না,তাদের জন্য শ্রেষ্ঠ সমাধান।</string>
+
+    <!-- -->
+    <string name="deelac_ingredients_per_100ml">Deelac - এর উপাদান / ১০০ মিলিগ্রাম</string>
+    <string name="_3_61">৩.৬১</string>
+    <string name="fat">ফ্যাট</string>
+    <string name="_1_37">১.৩৯</string>
+
+    <string name="_66_6">৬৬.৬</string>
+    <string name="kcal_energy">KCAL এনার্জি</string>
+    <string name="_6_97">৬.৯৭</string>
+    <string name="carbohydrates">কার্বোহাইড্রেট </string>
+    <string name="deelec_contains">Deelac আছে:</string>
+    <string name="prebiotics">প্রিবায়োটিক্স</string>
+    <string name="fos">FOS</string>
+    <string name="gos">GOS</string>
+    <string name="_100">১০০%</string>
+    <string name="vitamins">ভিটামিনস </string>
+    <string name="minerals">মিনারেলস</string>
+    <string name="_12">১২ </string>
+    <string name="whey_casein_ratio">ঘোল : ছানাজাতীয় উপাদান</string>
+    <string name="_70_30">৭০:৩০</string>
+    <string name="affordable_pack_nfor_infants_aged_n0_to_6_months_n180g_at_220">১৮০গ্রা প্যাকেট সাশ্রয়ী প্যাক
+০-৬ মাস বয়সী শিশুদের জন্য
+MRP ২২০/=</string>
+    <string name="for_infants_aged_n0_to_6_months_n400g_at_530">০-৬ মাস বয়সী শিশুদের জন্য
+৪০০গ্রা টিন
+MRP ৫৩০/=
+</string>
+    <string name="for_infants_aged_above_6_months_n400g_at_530">৬ মাসের অধিক বয়সী শিশুদের জন্য
+৪০০গ্রা টিন
+MRP ৫৩০/=
+</string>
+    <string name="lactose">ল্যাকটোজ</string>
+
+    <string name="breast_milk_the_golden_standard">মায়ের বুকের দুধের কোন বিকল্প নেই</string>
+    <string name="mature_human_milk_contains">পরিপক্ক মানুষের দুধে রয়েছে</string>
+    <string name="breast_milk_has">মায়ের দুধে আছে</string>
+
+    <string name="ratio_of_whey_to_casein">ঘোল : ছানাজাতীয় উপাদান</string>
+    <string name="the_stages_of_breast_milk">মায়ের দুধের বিভিন্ন ধাপ</string>
+    <string name="_90_10">৯০:১০</string>
+    <string name="colostrum">শাল দুধ</string>
+    <string name="the_milk_for_the_first_n1_5_days">শাল দুধ প্রথম ৩ দিন</string>
+    <string name="transitional_nbrest_milk">ট্রানজিস্টাল \nব্রেস্ট দুধ</string>
+    <string name="the_milk_for_the_first_n5_15_days">প্রথম ৫-১৫ দিন দুধ</string>
+    <string name="the_milk_for_the_first_n15_days">প্রথম ১৫+ দিন দুধ</string>
+    <string name="_60_40">৬০:৪০</string>
+    <string name="_50_50">৫০:৫০</string>
+    <string name="the_milk_after_n6_months">৬ মাসের পর দুধ</string>
+    <string name="_80_20">৮০:২০</string>
+    <string name="mature_milk">পরিপক্ক দুধ</string>
+    <string name="breast_feeding_practice_in_bangladesh">বাংলাদেশে মায়েদের বুকের দুধ খাওয়ানোর অভ্যাস</string>
+    <string name="global_scenario_of_breast_feeding">মায়ের দুধ খাওয়ানোর বিশ্বব্যাপী দৃশ্যকল্প</string>
+
+
+    <string name="competition">প্রতিযোগিতা</string>
+    <string name="nutritional_comparison_of_infant_formula_per_100_ml">শিশুর খাবারের পুষ্টির তুলনা (প্রতি ১০০ মিলিমিটার)</string>
+    <string name="type_to_search">Type to Search...</string>
+    <string name="ingredients">উপাদান</string>
+    <string name="whey_casien_ratio">হোয়ে কেসিন অনুপাত</string>
+    <string name="fibers_pribiotics">ফাইবার(প্রিবায়োটিক্স)</string>
+    <string name="_0_27">০.২৭</string>
+    <string name="folic_acid_micro_gm">ফলিক এসিড (মাইক্রো গ্রাম)</string>
+    <string name="energy_kcal">এনার্জি (কিলোক্যালরি)</string>
+    <string name="_67">৬৭</string>
+    <string name="_70">৭০</string>
+    <string name="protein_gm">প্রোটিন (গ্রাম)</string>
+    <string name="_1_39">১.৩৯</string>
+    <string name="_1_4">১.৪</string>
+    <string name="_16_9">১৬.৯</string>
+    <string name="carbohydrate_gm">কারবোহাইড্রেট (গ্রাম) </string>
+    <string name="_7_5">৭.৫</string>
+    <string name="_7_29">৭.২৯</string>
+    <string name="lactose_gm">ল্যাক্টোজ (গ্রাম)</string>
+    <string name="_5_3">৫.৩</string>
+    <string name="fat_gm">ফ্যাট (গ্রাম)</string>
+    <string name="_3_5">৩.৫</string>
+    <string name="_3_78">৩.৭৮</string>
+    <string name="linoliec_acid_mg">লিনোলিক এসিড (মিগ্রা)</string>
+    <string name="_570">৫৭০</string>
+    <string name="_530">৫৩০</string>
+    <string name="_578">৫৭৮</string>
+    <string name="alpha_linolenic_acid_mg">আলফা লিনোলিক এসিড (মিগ্রা)</string>
+    <string name="_81">৮১</string>
+    <string name="_67_2">৬৭.২</string>
+    <string name="_61">৬১</string>
+    <string name="_0">০</string>
+    <string name="fructo_oligosacchrides">ফ্রুক্টো অলিগোস্যাকারাইডস</string>
+    <string name="_0_027">০.০২৭</string>
+    <string name="galacto_oligosaccharides">গ্যালাক্টো অলিগোস্যাকারাইডস</string>
+    <string name="_0_025">০.২৫</string>
+    <string name="fatty_acid_gm">ফ্যাটি এসিড (গ্রাম)</string>
+    <string name="ara_mg">আরা (মিগ্রা)</string>
+    <string name="dha_gm">ডিএইচএ (মিগ্রা)</string>
+    <string name="mineral_ash_gm">মিনারেল (অ্যাশ) (গ্রাম)</string>
+    <string name="_0_37">০.৩৭</string>
+    <string name="_0_39">০.৩৯</string>
+    <string name="_0_41">০.৪১</string>
+    <string name="moistire_gm">ময়েসচার (গ্রাম)</string>
+    <string name="_90">৯০</string>
+    <string name="sodium_gm">সোডিয়াম (মিগ্রা)</string>
+    <string name="_19">১৯</string>
+    <string name="_22">২২</string>
+    <string name="_24_3">২৪.৩</string>
+    <string name="potassium_gm">পটাসিয়াম (মিগ্রা)</string>
+    <string name="_68">৬৮</string>
+    <string name="_78">৭৮</string>
+    <string name="_78_3">৭৮.৩</string>
+    <string name="chloride_gm">ক্লোরাইড (মিগ্রা)</string>
+    <string name="_45">৪৫</string>
+    <string name="_47">৪৭</string>
+    <string name="_54">৫৪</string>
+    <string name="_49_5">৪৯.৫</string>
+    <string name="calcium_gm">ক্যালসিয়াম (মিগ্রা)</string>
+    <string name="_49">৪৯</string>
+    <string name="_43">৪৩</string>
+    <string name="_67_5">৬৭.৫</string>
+    <string name="phosphorus_gm">ফসফরাস (মিগ্রা)</string>
+    <string name="_30">৩০</string>
+    <string name="_23_6">২৩.৬</string>
+    <string name="_29_5">২৯.৫</string>
+    <string name="_38_5">৩৮.৫</string>
+    <string name="magnesium_gm">ম্যানেসিয়াম (মিগ্রা)</string>
+    <string name="_5_2">৫.২</string>
+    <string name="_6_2">৬.২</string>
+    <string name="_6_7">৬.৭</string>
+    <string name="_5_5">৫.৫</string>
+    <string name="manganese_micro_gm">ম্যাঙ্গানিজ (মাইক্রোগ্রাম)</string>
+    <string name="_5_4">৫.৪</string>
+    <string name="_11_2">১১.২</string>
+    <string name="_13_4">১৩.৪</string>
+    <string name="_4_9">৪.৯</string>
+    <string name="selenium_gm">সেলেনিয়াম (মাইক্রোগ্রাম)</string>
+    <string name="_1_9">১.৯</string>
+    <string name="_1_55">১.৫৫</string>
+    <string name="_2">২</string>
+    <string name="_1_5">১.৫</string>
+    <string name="iron_gm">লৌহ (মিগ্রা)</string>
+    <string name="_0_54">০.৫৪</string>
+    <string name="_0_67">০.৬৭</string>
+    <string name="_0_63">০.৬৩</string>
+    <string name="_0_70">০.৭০</string>
+    <string name="iodin_micro_gm">আয়োডিন (মাইক্রোগ্রাম)</string>
+    <string name="_15">১৫</string>
+    <string name="_11_7">১১.৭</string>
+    <string name="_12_2">১২.২</string>
+    <string name="_8_8">৮.৮</string>
+    <string name="copper_gm">তামা (মিগ্রা)</string>
+    <string name="_0_039">০.০৩৯</string>
+    <string name="_0_05">০.০৫</string>
+    <string name="_0_04">০.০৪</string>
+    <string name="_0_047">০.০৪৭</string>
+    <string name="zinc_gm">দস্তা (মিগ্রা)</string>
+    <string name="_0_52">০.৫২</string>
+    <string name="_0_7">০.৭</string>
+    <string name="_0_69">০.৬৯</string>
+    <string name="_0_51">০.৫১</string>
+    <string name="vit_a_micro_gm_r_e">ভিটামিন এ (মাইক্রো গ্রাম আরই)</string>
+    <string name="_74">৭৪</string>
+    <string name="_63_9">৬৩.৯</string>
+    <string name="_66_5">৬৬.৫</string>
+    <string name="_243_i_u">২৪৩ (আইইউ)</string>
+    <string name="vit_d_micro_gm_d">ভিটামিন ডি (মাইক্রো গ্রাম ডি)</string>
+    <string name="_0_84">০.৮৪</string>
+    <string name="_0_87">০.৮৭</string>
+    <string name="_40_5_i_u">৪০.৫ (আইইউ)</string>
+    <string name="vit_e_micro_gm_t_e">ভিটামিন ই (মাইক্রো গ্রাম টিই)</string>
+    <string name="_0_77">০.৭৭</string>
+    <string name="_0_68_i_u">০.৬৮ (আইইউ)</string>
+    <string name="vit_k_micro_gm">ভিটামিন কে (মাইক্রো গ্রাম)</string>
+    <string name="_4_7">৪.৭</string>
+    <string name="vit_c_gm">ভিটামিন সি (মিগ্রা)</string>
+    <string name="_9_2">৯.২</string>
+    <string name="_9_6">৯.৬</string>
+    <string name="_8_1">৮.১</string>
+    <string name="vit_b1_gm">ভিটামিন বি১ (মিগ্রা)</string>
+    <string name="_0_097">০.০৯৭</string>
+    <string name="_0_053">০.০৫৩</string>
+    <string name="vit_b2_gm">ভিটামিন বি২ (মিগ্রা)</string>
+    <string name="_0_13">০.১৩</string>
+    <string name="_0_1">০.১</string>
+    <string name="_0_087">০.০৮৭</string>
+    <string name="_0_068">০.০৬৮</string>
+    <string name="niacin_gm">নিয়াসিন (মিগ্রা)</string>
+    <string name="_0_49">০.৪৯</string>
+    <string name="_0_68">০.৬৮</string>
+    <string name="vit_b6_gm">ভিটামিন বি৬ (মিগ্রা)</string>
+    <string name="_0_065">০.০৬৫</string>
+    <string name="_0_041">০.০৪১</string>
+    <string name="pentothenic_acid_gm">পেন্টোথেনিক এসিড (মিগ্রা)</string>
+    <string name="vit_b12_micro_gm">ভিটামিন বি১২ (মাইক্রো গ্রাম)</string>
+    <string name="_0_19">০.১৯</string>
+    <string name="_0_17">০.১৭</string>
+    <string name="biotin_micro_gm">বায়োটিন (মিগ্রা)</string>
+    <string name="_2_3">২.৩</string>
+    <string name="cholin_gm">কলিন (মিগ্রা)</string>
+    <string name="_5_95">৫.৯৫</string>
+    <string name="_7_9">৭.৯</string>
+    <string name="inositol_gm">ইনোসিটল (মিগ্রা)</string>
+    <string name="_4_5">৪.৫</string>
+    <string name="_5_94">৫.৯৪</string>
+    <string name="_5_6">৫.৬</string>
+    <string name="_3_4">৩.৪</string>
+    <string name="torin_gm">টরিন (মিগ্রা)</string>
+    <string name="_4_07">৪.০৭</string>
+    <string name="_4_2">৪.২</string>
+    <string name="carnitin_gm">কারনিটিন (মিগ্রা)</string>
+    <string name="_1_2">১.২</string>
+    <string name="_1_03">১.০৩</string>
+    <string name="_1_1">১.১</string>
+    <string name="_1">১</string>
+    <string name="neocleotides_gm">নিউক্লিওটাইডস (মিগ্রা)</string>
+    <string name="_2_01">২.০১</string>
+    <string name="composition">কম্পোজিশান</string>
+    <string name="n_a">প্রযোজ্য নয়</string>
+    <string name="price">দাম</string>
+    <string name="_830">৮৩০</string>
+    <string name="_600">৬০০</string>
+    <string name="_550">৫৫০</string>
+    <string name="company_name">কোম্পানির নাম</string>
+    <string name="paclaging">প্যাকেজিং</string>
+    <string name="denmark">ডেনমার্ক</string>
+    <string name="phillipines">ফিলিপাইন্স</string>
+    <string name="india">ভারত</string>
+    <string name="bangladesh">বাংলাদেশ</string>
+    <string name="_0_07">০.০৭</string>
+    <string name="_0_42">০.৪২</string>
+    <string name="reference">রেফারেন্স</string>
+    <string name="how_does_a_cesarean_affect_the_baby">কিভাবে একটি Cesarean শিশুর প্রভাবিত করে?</string>
+    <string name="a_study_on_mice_to_determine_the_level_of_immunity_in_c_section_nborn_vs_natural_born_infants">সি-সেকশনে জন্মগ্রহণকারী প্রাকৃতিক জীবাণু শিশুদের জন্মের অনাক্রম্যতার স্তর নির্ধারণ \nকরতে মাউসের উপর একটি গবেষণা।</string>
+    <string name="bms_code">বিএমএস কোড</string>
+
+    <string name="probiotics_and_prebiotics_in_the_gut">পাকস্থলীতে প্রিবায়োটিক্স</string>
+    <string name="prebiotics_help_the_good_bacteria_to_increase_in_number">প্রিবায়োটিক্স ভালো ব্যাক্টেরিয়ার সংখ্যা বাড়ায়</string>
+    <string name="breast_milk_has_the_prebiotic_human_milk_oligosaccharide">মায়ের বুকের দুধে যে প্রিবায়োটিক্স আছে – Human Milk Oligosaccharides</string>
+    <string name="prebiotics_die_with_time">প্রোবায়োটিক্স সময়ের সাথে কমতে থাকে</string>
+    <string name="whereas_prebiotic_fiber_is_resistant_to_nheat_digestive_huice_and_time">প্রিবায়োটিক্স সময়ের সাথে কমে না, বরং কমতে থাকা প্রোবায়োটিক্সকে বাড়িয়ে, সুস্থ পাকস্থলী নিশ্চিত করে</string>
+    <string name="prebiotics_strengthen_nimmune_system">প্রিবায়োটিক্স রোগ প্রতিরোধ ক্ষমতা বাড়ায়</string>
+    <string name="these_good_bacteria_are_already_present_nin_busy_s_gut_which_they_get_from_their_nmother_they_fight_germs_reducing_the_nrisk_of_diseases">প্রোবায়োটিক্স হলো ভালো ব্যাক্টেরিয়া যা শিশু তার মার থেকে পায়। প্রিবায়োটিক্স জীবাণুর সাথে লড়াই করে, রোগ প্রতিরোধ ক্ষমতা বাড়ায়</string>
+    <string name="prebiotics_make_the">প্রিবায়োটিক্স শিশুদের রোগ প্রতিরোধ ক্ষমতা বাড়ায়</string>
+    <string name="prebiotics_neutralize_the_ph_of_gut_to_nensure_gut_comfort_resulting_in_n_better_digestion_n_increase_of_stool_frequency_n_better_mineral_absorption_to_get_n_immune_effect">প্রিবায়োটিক্স ভালো ব্যাক্টেরিয়ার খাবার, যা খারাপ ব্যাক্টেরিয়ার বৃদ্ধি থামায়, এতে শিশুদের রোগ প্রতিরোধ ক্ষমতা বাড়ে</string>
+
+    <string name="cesarean_deliveries_in_bangladesh">বাংলাদেশে সিজারিয়ান ডেলিভারি</string>
+    <string name="all_hospitals">সব হাসপাতাল</string>
+    <string name="private_hospitals">বেসরকারি হাসপাতাল</string>
+    <string name="of_c_sections_in_bangladesh">% বাংলাদেশে সি সেকশানের হার</string>
+    <string name="breast_milk_section_usually_comes_two_to_three_days_after_delivery">মায়ের বুকের দুধ সাধারণত ডেলিভারির দুই থেকে তিন দিন পরে আসে।</string>
+    <string name="children_delivered_by_c_section_nhave_lower_number_of_cells_that_nstrengthen_the_immunity_than_nkids_with_natural_birth">যেই শিশুগুলো সিজারিয়ান \nডেলিভারির মাধ্যমে জন্মগ্রহণ \nকরে, তাদের রোগ প্রতিরোধ \nক্ষমতা তুলনামূলক ভাবে কম \nথাকে স্বাভাবিক ডেলিভারিতে \nজন্মগ্রহণ করা শিশুর থেকে।</string>
+    <string name="immunity_builds_up_slowly_nafter_72_hours">রোগ প্রতিরোধ ক্ষমতা আস্তে \nআস্তে বৃদ্ধি পায় ৭২ ঘন্টার পর</string>
+    <string name="cesarean_babies_need_extra_nnutrients_and_immunity_after_ndelivery">সিজারিয়ান ডেলিভারির মাধ্যমে \nজন্মগ্রহণ করা নবজাতদের বাড়তি \nপুষ্টির প্রয়োজন হয় জন্মের পর</string>
+
+    <string name="whey_casein">হোয়ে কেসিন</string>
+    <string name="proteins_in_milk">দুধের প্রোটিন</string>
+    <string name="when_milk_is_high_in_whey_it_is_easy_to_digest">দুধে হোয়ে প্রোটিনের পরিমান বেশি থাকলে , দুধটি সহজে হজম হয়</string>
+    <string name="cow_milk">গরুর দুধ</string>
+    <string name="working_women_in_bangladesh">বাংলাদেশে নারী শ্রমিকের %</string>
+    <string name="bangladesh_female_labor_force_participation">বাংলাদেশ মহিলা শ্রম বাহিনী অংশগ্রহণ</string>
+    <string name="labor_force_contribution_36_of_women_82_5_of_man">৩৬% নারী এখন কর্মজীবী</string>
+
+    <string name="lactose_is_the_main_carbohydrate_in_deelac_nsimilar_to_breast_milk">ল্যাকটোজ = বুকের দুধের মতো ,\nDeelac এর  মূল  কার্বোহাইড্রেট  ল্যাকটোজ </string>
+    <string name="_4_7p">৪.৭%</string>
+    <string name="cow_s_milk_provides_nupto_30_of_an_infant_s_nenergy_needs">গরুর দুধে আছে ৫৫% ল্যাকটোজ, যা শিশুর ৩০% শক্তির চাহিদা পূরণ করে। </string>
+    <string name="breast_milk_provides_upto_n50_of_an_infant_s_energy_nneeds">মায়ের বুকের দুধে আছে ১০০% ল্যাকটোজ, যা শিশুর ৫০% শক্তির চাহিদা পূরণ করে। </string>
+    <string name="tastes">স্বাদ</string>
+    <string name="sweet">মিষ্টি</string>
+    <string name="for_the_high_lactose_content_nin_breast_milk">কারণ বুকের দুধে ল্যাকটোজের পরিমাণ অনেক বেশি।</string>
+    <string name="_3_5p">৩-৫%</string>
+    <string name="breast_milk_also_contains_n3_5_fat_which_determines_nits_creaminess">বুকের দুধে রয়েছে ফ্যাট যার ফলে তা সাধারণত ঘন হয়ে থাকে।</string>
+
+    <string name="general_overview_of_bangladesh">বাংলাদেশে শিশুদের পুষ্টির পরিসংখ্যান</string>
+    <string name="population">জনসংখ্যা</string>
+    <string name="_162_9">১৬২.৯</string>
+    <string name="pop_under_5">৫ বছরের কম বয়সী শিশু</string>
+    <string name="_15_2">১৫.২</string>
+    <string name="stunting">% Stunting</string>
+    <string name="_36">৩৬%</string>
+    <string name="underweight">% ওজনে কম</string>
+    <string name="_33">৩৩%</string>
+    <string name="of_children_under_5">৫ বছরের কম বয়সী শিশু</string>
+    <string name="more_then">বাংলাদেশ এ</string>
+    <string name="_0_5m">৫ লক্ষ</string>
+    <string name="children_with_severe_nacute_malnutrition_n_sam_in_the_country">এর বেশি শিশু গুরুতর তীব্র \nঅপুষ্টিতে (Severe Acute \nMalnutrition) ভুগছে।</string>
+    <string name="nearly">প্রায়</string>
+    <string name="of_all_deaths_in_childern_under">এর বেশিরভাগ সময় পুষ্টিহীনতাই</string>
+    <string name="are_attributed_to_undernutrition">বছরের কম বয়সী শিশু মৃত্যুর মূল কারণ</string>
+    <string name="translating_to">যার ফলে প্রতি বছর প্রায়</string>
+    <string name="loss_of_young_lives_a_year">শিশু মারা যাচ্ছে</string>
+    <string name="undernutrition_puts_childern_at_grater_risk_of_dying_from_common_infections_increases_nthe_frequency_and_severity_of_such_infections_and_delays_recovery">পুষ্টিহীনতার কারণে শিশুদের মধ্যে সাধারণ সংক্রমণে মৃত্যুর ঝুঁকি বৃদ্ধি পায় এবং সংক্রমণের হার ও প্রবলতা বেড়ে যাওয়াতে আরোগ্যলাভে দেরি হয়।</string>
+    <string name="million">মিলিয়ন</string>
+    <string name="_17">১৭</string>
+    <string name="_9_9">৯.৯</string>
+    <string name="_10_5">১০.৫</string>
+
+    <string name="cow_s_milk">গরুর দুধ</string>
+    <string name="casein_ndominated">কেসিনের পরিমাণ বেশি</string>
+    <string name="casein_is_difficult_to_digest">গরুর দুধে কেসিন বেশি</string>
+    <string name="difficult_to_ndigest">হজম করতে কষ্ট হয়</string>
+    <string name="due_to_high_concentrations_of_nprotein_and_minerals">নবজাতদের গরুর দুধ হজম করতে কষ্ট হয়</string>
+    <string name="lacks_proper_nnutrition_for_babies">প্রয়োজনীয় পুষ্টি সঠিক পরিমাণে নেই</string>
+    <string name="improper_amounts_of_iron_nvitamin_c_and_other_nutrients_ncan_cause_iron_deficiency_nanemia_in_some_babies">গরুর দুধ এ নবজাতদের প্রয়োজনীয় পুষ্টি সঠিক পরিমাণে নেই। যার কারণে শিশুদের আইরনের ঘাটতি বা এনেমিয়া দেখা দিতে পারে</string>
+    <string name="bad_for_nbabie_s_kidneys">শিশুর পেটের জন্যে খারাপ</string>
+    <string name="can_stress_a_newborn_s_immature_nkidneys_and_cause_severe_nillness_at_times_of_heat_stress_nfever_or_diarrhea">গরুর দুধ নব্বজাতদের কিডনিতে চাপ প্রয়গ করতে পারে, যার কারণে জ্বর বা ডাইরিয়ার মত রোগ দেখা দিতে পারে</string>
+    <string name="deelac_is_better_nthan_cow_s_milk">ডিলাক গরুর দুধের চেয়ে ভালো</string>
+    <string name="milk_protein_extracted_from_the_ncow_s_milk_other_nutrients_like_iron_niodine_are_added_which_are_present_in_nbreast_milk_naturally">গরুর দুধ থেকে প্রাপ্ত প্রোটিনের সাথে আয়রন ও আয়োডিনের মত আরও পুষ্টি উপাদান যোগ করা হয়, যা মায়ের বুকের দুধে প্রাকৃতিকভাবে উপস্থিত।</string>
+    <string name="bad_for_nbabie_s_stomach">শিশুর পেটের জন্যে খারাপ</string>
+    <string name="can_irritate_the_lining_of_the_nstomach_and_intestine_nleading_to_loss_od_blood_into_nthe_stools">গরুর দুধের প্রোটিন পেট এবং অন্ত্রের আস্তরণে চাপ প্রয়গ করতে পারে, যার কারন এ স্টুলে রক্ত দেখা দিতে পারে.</string>
+
+    <string name="prebiotics_good_bacteria">প্রোবায়োটিক্স (ভালো ব্যাক্টেরিয়া)</string>
+    <string name="prebiotics_food_for_probiotics">প্রিবায়োটিক্স (ভালো ব্যাক্টেরিয়ার খাবার)</string>
+    <string name="the_human_gut">পাকস্থলী</string>
+
+    <string name="_5">৫</string>
+    <string name="_3_million">৩০ লক্ষ</string>
+
+    <string name="age_in_nmonths">বয়স\n(মাস)</string>
+    <string name="recommended_npractices">যা পরামর্শ\nকরা হয়</string>
+    <string name="start_breast_nfeeding_within_none_hour_of_birth">বাচ্চা কে প্রথম\nএক ঘন্টার মধ্যে\nবুকের দুধ খাওয়ান</string>
+    <string name="breastfeed_nexclusively_for_the_nfirst_6_months_of_life">প্রথম ৬ মাস শুধুমাত্র\nবুকের দুধ খাওয়ান</string>
+    <string name="provide_nutritionally_adequate_age_appropriate_and_safely_nprepared_complementary_foods_starting_at_6_months_and_ncontinue_breasfeeding_until_age_2_or_longer">৬ মাস পর, শিশুকে পর্যাপ্ত  পুষ্টি সম্পন্ন, বয়স অনুপাতে সঠিক \nভাবে তৈরী করা পার্শ্ব খাবার দিতে হবে, তার পাশাপাশি মায়ের \nবুকের দুধ দুই বছর বা তার বেশি সময় পর্যন্ত চালিয়ে যেতে হবে</string>
+    <string name="indicators">নির্দেশক</string>
+    <string name="_42">৪২</string>
+    <string name="early_initiation_of_nbreastfeeding_n">প্রথম ঘন্টার মধ্যে \nমায়ের দুধ \nখাওয়ানো</string>
+    <string name="_1_hour"><![CDATA[< ১ ঘণ্টা]]></string>
+    <string name="_41">৪১</string>
+    <string name="exclusive_nbreastfeeding_n">শুধুমাত্র \nমায়ের দুধ \nখাওয়ানো</string>
+    <string name="_0_5_months">০-৫ মাস</string>
+    <string name="_69">৬৯</string>
+    <string name="introduction_of_nsolid_semisolid_nor_soft_foods">পার্শ্ব খাবার শুরু</string>
+    <string name="_6_8_months">৬-৮ মাস</string>
+    <string name="_71">৭১</string>
+    <string name="continued_nbreastfeeding_nat_1_year">মাতৃদুগ্ধ চলতে \nথাকবে</string>
+    <string name="_12_15_months">১২-১৫ মাস</string>
+    <string name="continued_nbreastfeeding_nat_2_year">মাতৃদুগ্ধ চলতে \nথাকবে</string>
+    <string name="_20_23_months">২০-২৩ মাস</string>
+    <string name="_6">৬</string>
+    <string name="_23">২৩</string>
+    <string name="_24">২৪</string>
+
+    <string name="preparation_method">প্রস্তুতপ্রণালী</string>
+    <string name="_1_spoon_powder_for_30ml_water">*৩০মিলি এ এক চামচ</string>
+    <string name="age_limit">বয়সসীমা</string>
+    <string name="measurement_for_each_preparation">প্রতিবার দেবার পরিমাণ</string>
+    <string name="water_nmeasurement_ml">পানির পরিমাণ (মিলি)</string>
+    <string name="milk_quantity">দুধের পরিমাণ</string>
+    <string name="feeding_frequency_nper_day">দৈনিক কয়বার\nখাওয়াবেন</string>
+    <string name="per_day_nconsumption_n_gm">দৈনিক খাওয়ার\nপরিমাণ (গ্রাম)</string>
+    <string name="per_week_nconsumption_n_gm">সাপ্তাহিক\nখাওয়ার পরিমাণ\n(গ্রাম)</string>
+    <string name="per_month_nconsumption_n_gm">মাসিক খাওয়ার\nপরিমাণ (গ্রাম)</string>
+    <string name="per_month_nconsumption_n_tin">মাসিক\nখাওয়ার পরিমাণ\n(টিন)</string>
+    <string name="cost_per_serving">প্রতিবার\nখাওয়ার খরচ</string>
+    <string name="cost_per_month">মাসিক\nখাওয়ার\nখরচ</string>
+    <string name="_0_2_weeks">০-২ সপ্তাহ</string>
+    <string name="_60">৬০</string>
+    <string name="_8">৮</string>
+    <string name="_482">৪৮২</string>
+    <string name="_1926">১৯২৬</string>
+    <string name="bdt_11">১১ টাকা</string>
+    <string name="bdt_2552">২৫৫২ টাকা</string>
+    <string name="_2_4_weeks">২-৪ সপ্তাহ</string>
+    <string name="_7">৭</string>
+    <string name="_632">৬৩২</string>
+    <string name="_2528">২৫২৮</string>
+    <string name="bdt_17">১৭ টাকা</string>
+    <string name="bdt_3350">৩৩৫০ টাকা</string>
+    <string name="_1_2_month">১-২ মাস</string>
+    <string name="_120">১২০</string>
+    <string name="_103">১০৩</string>
+    <string name="_722">৭২২</string>
+    <string name="_2890">২৮৯০</string>
+    <string name="bdt_23">২৩ টাকা</string>
+    <string name="bdt_3829">৩৮২৯ টাকা</string>
+    <string name="_2_4_months">২-৪ মাস</string>
+    <string name="_150">১৫০</string>
+    <string name="_108">১০৮</string>
+    <string name="_753">৭৫৩</string>
+    <string name="_3010">৩০১০</string>
+    <string name="bdt_28">২৮ টাকা</string>
+    <string name="bdt_3988">৩৯৮৮ টাকা</string>
+    <string name="_4_6_months">৪-৬ মাস</string>
+    <string name="_180">১৮০</string>
+    <string name="_129">১২৯</string>
+    <string name="_903">৯০৩</string>
+    <string name="_3612">৩৬১২</string>
+    <string name="_9">৯</string>
+    <string name="bdt_34">৩৪ টাকা</string>
+    <string name="bdt_4786">৪৭৮৬ টাকা</string>
+    <string name="product_deelac_1_nsku_400_nspoon_size_4_3">Deelac 1\n৪০০ গ্রাম টিন\nচামচের পরিমাপ ৪.৩গ্রাম</string>
+    <string name="carbohydrate">কার্বোহাইড্রেট</string>
+    <string name="human_milk_noligosaccharides">(Human Milk\nOligosaccharides)</string>
+
+    <string name="protein">প্রোটিন</string>
+    <string name="_0_8_0_9p">০.৮-০.৯%</string>
+    <string name="_100_lactose">(১০০% ল্যাকটোজ)</string>
+    <string name="mineral_nconstituents">মিনারেল</string>
+    <string name="_0_2">০.২%</string>
+    <string name="ash">ছাই</string>
+    <string name="energy_ncontent">এনার্জি</string>
+    <string name="_60_75_kcal">৬০-৭৫ KCAL</string>
+    <string name="per_100ml">PER 100ML</string>
+    <string name="_6_9_7_2p">৬.৯-৭.২%</string>
+
+    <string name="exclusive_breastfeedingbt">শুধুমাত্র মায়ের দুধ খাওয়ানো হয়</string>
+    <string name="predominantly_breastfeedingbt">প্রধানত মায়ের দুধ খাওয়ানো হয়</string>
+    <string name="_0_1_months">০-১ মাস</string>
+    <string name="_2_3_months">২-৩ মাস</string>
+    <string name="_4_5_months">৪-৫ মাস</string>
+    <string name="_87_1">৮৭.১</string>
+    <string name="_76_0">৭৬.০</string>
+    <string name="_51_8">৫১.৮</string>
+    <string name="_80_3">৮০.৩</string>
+    <string name="_61_8">৬১.৮</string>
+    <string name="_31_7">৩১.৭</string>
+
+    <string name="_1990">১৯৯০</string>
+    <string name="_1991">১৯৯১</string>
+    <string name="_1992">১৯৯২</string>
+    <string name="_1993">১৯৯৩</string>
+    <string name="_1994">১৯৯৪</string>
+    <string name="_1995">১৯৯৫</string>
+    <string name="_1996">১৯৯৬</string>
+    <string name="_1997">১৯৯৭</string>
+    <string name="_1998">১৯৯৮</string>
+    <string name="_1999">১৯৯৯</string>
+    <string name="_2000">২০০০</string>
+    <string name="_2001">২০০১</string>
+    <string name="_2002">২০০২</string>
+    <string name="_2003">২০০৩</string>
+    <string name="_2004">২০০৪</string>
+    <string name="_2005">২০০৫</string>
+    <string name="_2006">২০০৬</string>
+    <string name="_2007">২০০৭</string>
+    <string name="_2008">২০০৮</string>
+    <string name="_2009">২০০৯</string>
+    <string name="_2010">২০১০</string>
+    <string name="_2011">২০১১</string>
+    <string name="_2012">২০১২</string>
+    <string name="_2013">২০১৩</string>
+    <string name="_2014">২০১৪</string>
+    <string name="_2015">২০১৫</string>
+    <string name="_2016">২০১৬</string>
+    <string name="_2017">২০১৭</string>
+
+    <string name="iodine">আয়োডিন</string>
+    <string name="folic_acid">ফলিক এসিড</string>
+    <string name="vitamin_d">ভিটামিন ডি</string>
+    <string name="iron">আয়রন</string>
+
+    <string name="maer_dudher_bikolpo_nei">মায়ের দুধ কোন\nবিকল্প নেই</string>
+
+
+    <string name="Affordable_pack_for_infrants_aged_0_">সাশ্রয়ী প্যাক ০-৬ মাস বয়সী \nশিশুদের জন্য</string>
+
+    <string name="Price_180g_BDT_220">[১৮০গ্রাম প্যাকেট ২২০/=]</string>
+
+    <string name="For_infrants_aged_0_to_6_months">০-৬ মাস বয়সী শিশুদের জন্য</string>
+
+    <string name="Price_400g_BDT_530">[৪০০গ্রাম টিন MRP ৫৩০/=]</string>
+
+    <string name="For_infrants_aged_avobe_6_months">৬ মাসের অধিক বয়সী শিশুদের জন্য</string>
+
+    <string name="perfect_nutritional_supplement_for_pre_pregnant_pregnant_and_breast_feeding_mothers">প্রাক গর্ভবতী, গর্ভবতী এবং স্তন খাওয়ানো মা জন্য পারফেক্ট পুষ্টির সাপ্লিমেন্ট</string>
+
+    <string name="_2_glasses_100g_of_dano_mom_will_fulfil_100_rda_of_iron_vitamin_d_and_folic_acid">একজন গর্ভবতী নারী যদি প্রতিদিন  ২ গ্লাস / ১০০gm Dano mom  খায়, প্রতিদিনের  চাহিদার  ১০০% আইরন, ভিটামিন ডি ও ফলিক অ্যাসিড পূরণ হয়</string>
+
+    <string name="has_good_amount_of_dha_nhas_both_prebiotics_and_probiotics">DANO MOM এ আছে ভালো পরিমানের ডি. এইচ. এ,\nপ্রিবায়োটিক্স এবং প্রোবায়োটিক্স দুটোই আছে</string>
+
+    <string name="has_both_prebiotics_n_amp_probiotics_to_nensure_gut_comfort">প্রিবায়োটিক্স এবং প্রোবায়োটিক্স দুটোই আছে</string>
+
+    <string name="helps_to_improve_the_quality_of_the_breast_milk_by_providing_nutrition_to_the_mother">Dano mom মায়ের পুষ্টি প্রদান করে তার বুকের দুধের মান উন্নত করতে সাহায্য করে।</string>
+
+    <string name="tends_in_nutritional_status_of_women_15_49_years_n2004_2011">নারীর পুষ্টির অবস্থা (১৫-৪৯ বছর), ২০০৪-২০১১</string>
+
+    <string name="_15_19">১৫-১৯</string>
+
+    <string name="_20_24">২০-২৪</string>
+
+    <string name="_25_29">২৫-২৯</string>
+
+    <string name="_30_34">৩০-৩৪</string>
+
+    <string name="_35">৩৫+</string>
+
+    <string name="_2004_dhs">২০০৪</string>
+
+    <string name="_2007_dhs">২০০৭</string>
+
+    <string name="_2011_dhs">২০১১</string>
+
+    <string name="tends_in_maternal_underweight_by_age_2004_2011">বয়স দ্বারা মাতৃত্বের ওজনের মধ্যে থাকে, ২০০৪-২০১১</string>
+
+    <string name="underweightdm">ওজনে কম</string>
+
+    <string name="short_stature">সংক্ষিপ্ত মর্যাদা</string>
+
+    <string name="overweight_obese">মাত্রাতিরিক্ত ওজনের/স্থূলকায়</string>
+
+    <string name="consumers">Dano-Mom কাদের জন্য:</string>
+
+    <string name="for_pre_pregnant_mothers">যারা মা হওয়ার প্রস্তুতি নিচ্ছে:</string>
+
+    <string name="dano_mom_provides_the_required_nutrition_to_prepare_the_womb">Dano mom তাদের সঠিক পুষ্টি দিবে গর্ভধারণ এর জন্য</string>
+
+    <string name="for_pregnant_mothers">গর্ভবতী মায়েদের জন্য:</string>
+
+    <string name="dano_mom_provides_the_required_nutrition_for_the_baby_s_development_nwhile_ensuring_mother_s_health">Dano mom গর্ভবতী মায়েদের সঠিক পুষ্টি দেয় যা তার সন্তানকে গর্ভের মধ্যে সুস্থ ভাবে বেড়ে উঠতে সহায়তা করে, এবং মায়ের সুস্বাস্থ নিশ্চিত করে </string>
+
+    <string name="for_breast_feeding_mothers">স্তনদায়ী মায়েদের জন্য :</string>
+
+    <string name="it_improves_the_quality_of_the_breast_milk_by_ensuring_the_right_nnutrition_to_the_mother">Dano mom মাকে সঠিক পুষ্টি দেয়, যাতে সে তার সন্তান কে সঠিক পুষ্টি দিতে পারে</string>
+
+    <string name="dha_docosahexaenoic_acid_is_a_type_of_omega_3_fat">ডোকোসাহেক্সেনিয়িক অ্যাসিড,ওমেগা -3 ফ্যাটের একটি প্রকার।</string>
+
+    <string name="benefit_of_dha">ডিএইচএ সুবিধা</string>
+
+    <string name="helps_in_brain_and_vision_development_n_more_effective_before_birth_than_after_birth">- ডি. এইচ. এ শিশুর বুদ্ধি এবং দৃষ্টি বিকাশে সহায়তা করে এই কারণে গর্ভকালীন সময় \nডি. এইচ. এ একজন শিশুর জন্য অত্যন্ত প্রয়োনজোন |\n- জন্মের পরের চেয়ে জন্মের আগে শিশুকে ডি. এইচ. এ দেয়া  অনেক বেশি গুরুত্বপূর্ণ</string>
+
+    <string name="dano_mom_contains_75mg_dha_100g">ড্যানো মায়ের ৭৫mg ডিএইচএ / ১০০g রয়েছে</string>
+
+    <string name="an_excellent_source_of_dha_made_nfrom_ultra_refined_fish_oil_that_is_ntested_for_purity_and_nconcentration">বিশুদ্ধতা এবং ঘনত্ব পরীক্ষা করা হয় \nযে অতি পরিমার্জিত মাছ তেল থেকে তৈরি \nDHA একটি চমৎকার উৎস*</string>
+
+    <string name="dha_75mg_100g_powder">ডিএইচএ: ৭৫mg / ১০০g গুঁড়া</string>
+
+    <string name="based_on_the_recommendations_of_the_united_states_diatory_reference_intakes_dris_for_docosahexaenoic_acid_dha">* ডোকোসাহেক্সেনিয়িক এসিড (DHA) এর জন্য মার্কিন যুক্তরাষ্ট্রের ডায়রিটি রেফারেন্স ইন্টাক্স (ডিআরআই) এর সুপারিশের উপর ভিত্তি করে</string>
+
+    <string name="nutrition_that_mothers_need_and_why">গর্ভবতী অবস্থায় পুষ্টির প্রয়োজনীয়তা</string>
+
+    <string name="has_dha_which_helps_in_vision_and_brain_development">ডি. এইচ. এ বুদ্ধি এবং দৃষ্টি বিকাশে সহায়তা করে</string>
+
+    <string name="calcium_is_needed_for_the_healthy_development_of_the_baby_s_teeth_bones_heart_nerves_and_muscles_when_a_pregnant_woman_does_not_consume_enough_calcium_it_is_taken_from_her_bones_for_the_baby_s_sake_vitamin_d_helps_absorb_calcium">ক্যালসিয়াম শিশুর দাঁত, হার এবং মাংসপেশী গঠনে সহায়তা করে | যদি গর্ভবতী মা সঠিক পরিমানের ক্যালসিয়াম না খায়, মায়ের হার থেকে শিশু ক্যালসিয়াম নেই.</string>
+
+    <string name="dha_help_build_the_brain_and_eyes_of_your_fetus_baby_s_brain_starts_developing_in_the_womb_and_dha_is_most_effective_for_the_baby_when_in_womb">DHA শিশুর মস্তিষ্ক এবং দৃষ্টি নির্মাণে সহায়তা করে| গর্ভকালে শিশুর জন্য DHA সবচেয়ে কার্যকর, কারণ গর্ভকালে শিশুর অধিকাংশ ব্রেইন ডেভেলপমেন্ট হয়ে যায়</string>
+
+    <string name="folic_acid_intake_before_and_during_the_early_months_of_pregnancy_is_essential_for_preventing_baby_s_birth_defects_researchers_found_that_those_women_with_low_average_daily_folic_acid_consumption_i_e_less_than_240_micrograms_a_day_and_or_low_blood_folic_acid_levels_at_28_weeks_of_pregnancy_had_twice_the_incidence_of_preterm_delivery_and_low_birth_weight_babies_as_those_getting_adequate_amounts_of_this_vitamin">ফলিক অ্যাসিড শিশুর জন্মগত ত্রুটিগুলি রোধ করতে সহায়তা করে</string>
+
+    <string name="iron_is_important_for_delivering_oxygen_to_all_cells_in_the_body_pregnant_women_need_more_iron_since_their_blood_volume_is_increasing_this_is_particularly_important_during_the_third_trimester_low_levels_of_iron_during_early_and_mid_pregnancy_may_cause_iron_deficiency_anemia_which_doubles_the_risk_of_premature_delivery_and_low_birth_weight_vitamin_c_help_increase_absorption_of_iron_from_meals">আয়রন শরীরের সমস্ত কোষে (সেল) অক্সিজেন সরবরাহের জন্য আয়রন গুরুত্বপূর্ণ। রক্তের পরিমাণ বৃদ্ধি পাওয়ায় গর্ভবতী মহিলাদের আরও আয়রন প্রয়োজন। এটি তৃতীয় ত্রৈমাসিক সময় বিশেষ করে গুরুত্বপূর্ণ।
+
+প্রাথমিক ও মধ্য-গর্ভধারণের সময় আয়রন নিম্ন স্তরের আয়রন ঘাটতি অ্যানিমিয়া হতে পারে, যা প্রিম্যাচিউর ডেলিভারির ঝুঁকি বাড়ায়</string>
+
+    <string name="vitamin_c_help_increase_absorption_of_iron_from_meals">ভিটামিন সি খাবার থেকে আয়রন শোষণ বৃদ্ধিতে সাহায্য করে।</string>
+
+    <string name="symbiotic_prebiotics_probiotics">সিম্বায়োটিক = প্রিবায়োটিক্স + প্রোবায়োটিক্স</string>
+
+    <string name="prebiotics_are_the_good_bacteria_that_fight_the_germs_reducing_the_risk_of_diseases_and_makes_the_immunity_system_stronger">প্রোবায়োটিক্স হচ্ছে ভালো ব্যাক্টেরিয়া যা জীবাণুর সাথে লড়াই করে শরীরের রোগ প্রতিরোধ ক্ষমতা বাড়ায়</string>
+
+    <string name="but_probiotics_can_die_with_time">কিন্তু প্রোবায়োটিক সময়ের সাথে কমতে থাকে</string>
+
+    <string name="however_probiotics_fiber_does_not_get_affected_by_heat_digestive_juices_or_time">আর, প্রিবায়োটিক্স ফাইবার তাপ, পাচক রস বা সময় দ্বারা প্রভাবিত হয় না।</string>
+
+    <string name="prebiotics_help_grow_probiotics_and_reduce_the_growth_of_bad_bacteria_making_the_gut_helthier_and_ensuring_stronger_immune_system">প্রিবায়োটিক্স ভালো ব্যাক্টেরিয়ার(প্রোবায়োটিক্সের) স্যংখা বাড়ায় এবং খারাপ ব্যাকটেরিয়া\'র সংখ্যা কমায় – হজমে সহায়তা করে এবং মা ও শিশুর সু-স্বাস্থ নিশ্চিত করে</string>
+
+    <string name="dano_mom_proplustm_contains_three_probiotic_strains_abc_lactobacillus_acidophilus_nbifidobacterium_lactis_and_the_arla_patented_lactobacillus_casei_f19">Dano Mom PROPLUS™ এ আছে ল্যাক্টোব্যাসিলাস এসিডোফিলাস, বিফিডোব্যাক্টেরিয়াম ল্যাক্টিস এবং ল্যাক্টোব্যাসিলাস ক্যাসেই F19 [যা আরলা\'র নিজেস্ব পেটেণ্ট করা ]</string>
+
+    <string name="prebiotics_and_probiotics_reduce_constipation">প্রিবায়োটিক্স এবং প্রোবায়োটিক কোষ্ঠকাঠিন্য হ্রাস করে</string>
+
+    <string name="prebiotics_and_probiotics_ensures_gut_comfort_reducing_constipation">এবং অন্ত্রে আরাম নিশ্চিত করে</string>
+
+    <string name="breast_milk">বুকের দুধ</string>
+
+    <string name="for_babies_breast_milk_can_protect_against_infections_and_reduce_the_rates_of_later_health_problems_including_diabetes_obesity_and_asthma">মায়ের বুকের দুধ শিশুদের অনেক ইনফেক্শন থেকে সুরক্ষা দিতে পারে |</string>
+
+    <string name="for_mothers_breastfeeding_helps_the_uterus_to_contract_and_bleeding_to_cease_more_quickly_nafter_delivery_breastfeeding_can_reduce_the_risk_of_breast_and_ovarian_cancer">বুকের দুধ খাওয়ানোর ফলে ডেলিভারির পরে গর্ভাবস্থাকে রক্তচাপ আরও দ্রুত বন্ধ করতে সহায়তা করে
+
+, মায়ের বুকের খায়ানোতে, তাদের স্তন ক্যান্সার, বা ওভারিয়ান ক্যান্সার হওয়ার  ঝুঁকি টা কমতে পারে</string>
+
+    <string name="breast_feeding_also_helps_to_strengthen_the_bond_of_the_child_with_mother">মায়ের বুকের খায়ানোতে মায়েরা তাদের শিশুদের সাথে বন্ধন করার সুযোগ দেয়।</string>
+
+    <string name="breast_milk_is_the_best_source_of_nutrition_for_a_new_baby_the_proteins_in_breast_milk_are_nmore_easily_digested_the_calcium_and_iron_in_breast_milk_are_also_more_easily_absorbed">মায়ের বুকের দুধে আছে  শিশুর জন্য শ্রেষ্ঠ পুষ্টি, এতে প্রোটিন , ক্যালসিয়াম এবং আইরন আছে যা শিশু সহজে হজম করতে পারে</string>
+
+    <string name="breast_milk_should_be_the_only_food_for_babies_until_first_6_months_as_it_is_a_well_researched_nfact_that_breastfed_babies_are_smarter_and_healthier_also_it_is_the_best_food_for_their_ntummies_as_it_is_easily_digestible_and_absorbed">প্রথম 6 মাস পর্যন্ত মায়ের দুধ শিশুদের জন্য একমাত্র খাবার এবং এটি একটি ভাল গবেষিত সত্য যে বুকের দুধগুলি শিশুরা আরও স্মার্ট এবং সুস্থ হয়।</string>
+
+    <string name="breast_milk_has_the_right_nutrients_in_the_right_amount_and_balance_for_the_babies_which_nleads_to_a_happy_and_healthy_tummy">মায়ের বুকের দুধ এ আছে শিশুর প্রয়োজনীয় পুষ্টি সঠিক পরিমানে</string>
+
+    <string name="foods_that_help_boost_lactation">যে খাবারগুলি দুগ্ধদানকে সহায়তা করে</string>
+
+    <string name="water_getting_enough_water_can_be_key_to_boosting_lactation_it_s_a_good_idea_nto_always_keep_a_bottle_of_water_close_at_hand_while_breast_feeding_it_can_cause_nyou_to_become_thirsty">পানি: বুকের দুধ খাওয়ানোর সময় পাশে এক বোতল পানি রাখা ভালো, কারণ মায়ের পিপাসা পেতে পারে</string>
+
+    <string name="oats_oats_contain_lots_of_iron_so_a_warm_bowl_of_oatmeal_can_also_help_with_nrelaxation_both_will_aid_milk_production">জই: এতে ভালো পরিমানের আইরন থাকে এবং এক বাটি ওটমিল/জইচূর্ণ খেলে মায়ের আরাম হবে, এবং এতে তার দুধ এর পরিমান বাড়াতে সহায়তা করে</string>
+
+    <string name="garlic_garlic_has_many_health_benefits_including_boosting_your_milk_production_nit_also_adds_great_flavor_to_your_food">রসুন: রসুনের অনেক স্বাস্থ্য সুবিধা আছে - যেমন দুধ এর পরিমান বাড়াতে সহায়তা করে এবং এটা খাবারের স্বাধ ও যোগ করে |</string>
+
+    <string name="greens_eat_plenty_of_vegetables_these_not_only_boost_lactation_but_also_nprovide_a_lot_of_other_health_benefits">সবজি: গাজর, সবুজ শাকসবজি মত প্রচুর পরিমাণে সবজি খাওয়া অভ্যাস করতে হবে| এতে শুধু  বুকের দুধ বাড়ে তা না, এতে শরীরের অনেক উপকার হয়</string>
+
+    <string name="have_dano_mom_to_improve_the_quality_of_breast_milk">Dano Mom খেলে বুকের দুধের গুনগত মান বৃদ্ধি পায়</string>
+
+    <string name="before_each_feed_drink_a_glass_of_milk_water">* প্রত্যেক খাবারের পূর্বে এক গ্লাস দুধ অথবা পানি খান*</string>
+
+    <string name="nutrition_supplement_for_pre_pregnant_pregnant_and_breast_feeding_mothers">প্রাক গর্ভবতী, গর্ভবতী এবং বুকের দুধ খাওয়ানোর জন্য পুষ্টি সরবরাহ।</string>
+
+
+    <string name="recommended_dietary_intake">প্রস্তাবিত ভোজনের খাদ্যতালিকা</string>
+
+    <string name="elements">উপাদানসমূহ</string>
+
+    <string name="amount_present_in_per_100gm_of_dano_mom">দৈনিক প্রতি ১০০ গ্রাম DANO MOM-এর পরিমাণ</string>
+
+    <string name="recommended_dietary_allowance_per_day_rda">প্রতি দিন প্রস্তাবিত খাদ্যশস্য ভাতা (আরডিএ)</string>
+
+    <string name="of_rda_fulfilled_with_100g_of_dano_mom">আরডিএ\'র শতকরা ১০০ গ্রাম Dano Mom</string>
+
+    <string name="_600gm">৬০০ গ্রাম</string>
+
+    <string name="_600mg">৬০০ গ্রাম</string>
+
+    <string name="_100p">১০০%</string>
+
+    <string name="_27mg">২৭ মি.গ্রাম</string>
+
+    <string name="_1000mg">১০০০ মি.গ্রাম</string>
+
+    <string name="_750mg">৭৫০ মি.গ্রাম</string>
+
+    <string name="calcium">ক্যালসিয়াম</string>
+
+    <string name="vitamin_b12">ভিটামিন বি 12</string>
+
+    <string name="vitamin_c">ভিটামিন সি</string>
+
+    <string name="zinc">জিঙ্ক</string>
+
+    <string name="dha">ডিএইচএ</string>
+
+    <string name="dietary_fibers">খাদ্যতালিকাগত Fibers</string>
+
+    <string name="_37_5p">৩৭.৫%</string>
+
+    <string name="_14p">১৪%</string>
+
+    <string name="_37p">৩৭%</string>
+
+    <string name="_30p">৩০%</string>
+
+    <string name="_40">৪০%</string>
+
+    <string name="_77p">৭৭%</string>
+
+    <string name="_75p">৭৫%</string>
+
+    <string name="_15mg">১৫ মি.গ্রাম</string>
+
+    <string name="vitamin_d_helps_absorb_calcium">ভিটামিন ডি ক্যালসিয়াম শোষণ করতে সাহায্য করে</string>
+
+    <string name="_2mg">২ মি.গ্রাম</string>
+    <string name="_64mg">৬৪ মি.গ্রাম</string>
+    <string name="_21mg">২১ মি.গ্রাম</string>
+    <string name="_7_7mg">৭.৭ মি.গ্রাম</string>
+    <string name="_65_5mg">৬৫.৫ মি.গ্রাম</string>
+    <string name="_75mg">৭৫ মি.গ্রাম</string>
+    <string name="_200mg">২০০ মি.গ্রাম</string>
+    <string name="_4_3mg">৪.৩ মি.গ্রাম</string>
+    <string name="_30mg">৩০ মি.গ্রাম</string>
+    <string name="_175mg">১৭৫ মি.গ্রাম</string>
+    <string name="_12mg">১২ মি.গ্রাম</string>
+    <string name="_71mg">৭১ মি.গ্রাম</string>
+    <string name="_85mg">৮৫ মি.গ্রাম</string>
+    <string name="maternal_and_child_mortality_sdg_target_3_1_3_2">মাতৃ এবং শিশু মৃত্যুর</string>
+    <string name="maternal_mortality_ratio">মাতৃ মৃত্যুর অনুপাত</string>
+    <string name="_750">৭৫০</string>
+    <string name="_500">৫০০</string>
+    <string name="_250">২৫০</string>
+    <string name="maternal_nutrition_statistics_of_bangladesh">বাংলাদেশের প্রসবকালীন পুষ্টি পরিসংখ্যান</string>
+    <string name="zinc_deficiency_affects_women">জিঙ্ক ঘাটতি প্রভাবিত করে (মহিলাদের)</string>
+    <string name="b12_deficiency">B12 ঘাটতি</string>
+    <string name="deficient_in_folate">Folate মধ্যে দায়ী</string>
+    <string name="anemia">রক্তাল্পতা</string>
+    <string name="low_birth_weight">কম জন্ম ওজন</string>
+    <string name="_20p">২০%</string>
+    <string name="_40p">৪০%</string>
+    <string name="_60p">৬০%</string>
+    <string name="malnutrition_indicators_among_children_and_women_in_bangladesh">বাংলাদেশে শিশু ও মহিলাদের মধ্যে অপুষ্টি সূচক</string>
+    <string name="short_stature_women">সংক্ষিপ্ত স্তর (নারী)</string>
+    <string name="underweight_women">কম ওজনের (মহিলাদের)</string>
+    <string name="overweight_obese_women">মাত্রাতিরিক্ত ওজনের / মোটা (মহিলাদের)</string>
+    <string name="wasting">নাশক</string>
+    <string name="anemia_non_pregnant_non_lactating_women">রক্তাল্পতা (অ-গর্ভবতী / অ-ল্যাকাকটিং মহিলাদের)</string>
+    <string name="anemia_pregnant_women">রক্তাল্পতা (গর্ভবতী মহিলাদের)</string>
+    <string name="anemia_child">রক্তাল্পতা(শিশু)</string>
+    <string name="vitamin_a_deficiency">ভিটামিন এ ঘাটতি</string>
+    <string name="children_under_5_years">৫ বছরের কম বয়সী শিশু</string>
+    <string name="women_15_49_years">১৫-৪৯ বছর নারী</string>
+    <string name="underweight2">কম ওজন</string>
+
+    <string name="_0_09">০.০৯</string>
+    <string name="instruction_and_price">পণ্যের সারাংশ এবং মূল্য</string>
+    <string name="_160">১৬০</string>
+    <string name="_140">১৪০</string>
+    <string name="_100n">১০০</string>
+    <string name="_80">৮০</string>
+    <string name="_40n">৪০</string>
+    <string name="_20n">২০</string>
+    <string name="instruction">নির্দেশনা</string>
+    <string name="_80p">৮০%</string>
+    <string name="probiotics">প্রোবায়োটিক্স</string>
+    <string name="_400gm_tin">৪০০গ্রাম টিন</string>
+    <string name="spoon_size_4_3">চামচের পরিমাপ ৪.৩গ্রাম</string>
+    <string name="_5yrs">৫</string>
+    <string name="summary">সারাংশ</string>
+    <string name="_1_only_deelac_has_prebiotics_which_ensures_gut_comfort_stronger_immunity">১. একমাত্র Deelac এই আছে প্রিবায়োটিক্স, যা শিশুর রোগপ্রতিরোধ ক্ষমতা বাড়ায়।</string>
+    <string name="_2_milk_is_whey_dominant_so_easier_to_digest">২. দুধে হোয়ে প্রোটিন বেশি, কেসিন এর থেকে, যা শিশু সহজে হজম করতে পারে।</string>
+    <string name="_3_most_affordable">৩. সাশ্রয়ী দাম </string>
+    <string name="_5_100_imported_from_denmark">৫. ডেনমার্ক থেকে সম্পূর্ণভাবে আমদানিকৃত।</string>
+    <string name="_4_milk_from_arla_s_own_farm">৪. নিজস্ব খামারের দুধ।</string>
+    <string name="breast_milk_provides_the_best_nutrition_to_child">মায়ের বুকের দুধ-ই শিশুর জন্য যথেষ্ঠ</string>
+    <string name="benefits_of_breast_feeding_for_child">শিশুদের বুকের দুধ খাওয়ানোর উপকারিতা:</string>
+    <string name="benefits_of_breast_feeding_to_mothers">মায়েদের বুকের দুধ খাওয়ানোর উপকারিতা:</string>
+    <string name="can_help_to_protect_against_infections">সংক্রমণ থেকে রক্ষা করতে সাহায্য করতে পারে</string>
+    <string name="baby_can_easily_digest_the_proteins">শিশু প্রোটিনগুলি সহজেই হজম করতে পারে</string>
+    <string name="calcium_amp_iron_can_easily_be_absorbed">ক্যালসিয়াম ও আয়রন সহজেই শোষিত হতে পারে</string>
+    <string name="bleeding_stops_more_quickly_after_delivery_as_it_helps_uterus_to_contract">প্রসবের পরে রক্তস্রাব আরও দ্রুত থামায়, কারণ এটি জরায়ুকে সঙ্কুচিত করতে সহায়তা করে</string>
+    <string name="has_the_right_nutrients_in_the_right_amount_and_balance">সঠিক পরিমাণ এবং ভারসাম্যের মধ্যে সঠিক পুষ্টি রয়েছে</string>
+    <string name="can_reduce_the_risk_of_breast_amp_ovarian_cancer">স্তন ও ওভারিয়ান ক্যান্সারের ঝুঁকি হ্রাস করতে পারে</string>
+    <string name="helps_to_strengthen_the_bond_with_child">সন্তানের সাথে বন্ধন দৃঢ় করতে সহায়তা করে</string>
+    <string name="c_no_nv_ne_nr_na_ng_ne_n">পরিধি\n(%)</string>
+    <string name="m_nm_nr_n_100_n000_nlive_nbirths">\n\nএমএমআর\n[১০০,০০০ জীবন্ত শিশু]</string>
+    <string name="dha_stands_for_docosahexaenoic_acid">ডিএইচএ হল ডোকোসাহেক্সেনিয়িক এসিড</string>
+    <string name="dhs_demographic_and_health_survey">জনসংখ্যা-বিষয়ক এবং স্বাস্থ্য জরিপ</string>
+    <string name="year">বছর</string>
+    <string name="maternal_deaths_per_100_000_live_births">মাতৃমৃত্যুর হার \nপ্রতি ১০০,০০০ জীবিত  জন্মে</string>
+    <string name="_10">১০</string>
+    <string name="_66">৬৬</string>
+    <string name="_7_3">৭.৩</string>
+    <string name="_38">৩৮</string>
+    <string name="_28">২৮</string>
+    <string name="_38_3">৩৮.৩</string>
+    <string name="_7_7">৭.৭</string>
+    <string name="_0_9">০.৯</string>
+    <string name="_0_045">০.০৪৫</string>
+    <string name="_0_6">০.৬</string>
+    <string name="_64">৬৪</string>
+    <string name="_0_001">০.০০১</string>
+    <string name="_13">১৩</string>
+    <string name="_0_058">০.০৫৮</string>
+    <string name="_0_8">০.৮</string>
+    <string name="_0_056">০.০৫৬</string>
+    <string name="_0_4">০.৪</string>
+    <string name="_0_2n">০.২</string>
+    <string name="_3_8">৩.৮</string>
+    <string name="_1_3">১.৩</string>
+    <string name="_0_5">০.৫</string>
+    <string name="_610">৬১০</string>
+    <string name="switzerland">সুইজারল্যান্ড</string>
+    <string name="_5_1">৫.১</string>
+    <string name="_0_102">০.১০২</string>
+    <string name="_1_69">১.৬৯</string>
+
+
+</resources>
+
+    <!--ডিএইচএস =-->

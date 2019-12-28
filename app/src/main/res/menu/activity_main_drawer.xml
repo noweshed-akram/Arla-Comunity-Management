@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_deelac"
+            android:icon="@drawable/dano_delac"
+            android:title="Deelac" />
+        <item
+            android:id="@+id/nav_DanoMom"
+            android:icon="@drawable/dano_delac"
+            android:title="Dano Mom" />
+
+        <item
+        android:id="@+id/file"
+        android:title="Switch Language"
+            >
+        <!-- "file" submenu -->
+        <menu>
+        <item
+        android:id="@+id/eng"
+        android:title="English"
+            />
+        <item
+        android:id="@+id/ban"
+        android:title="বাংলা" />
+        </menu>
+
+        </item>
+
+
+        <!--<item-->
+        <!--android:id="@+id/nav_breastmilk"-->
+        <!--android:title="Breast Milk" />-->
+
+        <!--<item-->
+        <!--android:id="@+id/nav_breastFeddingMilk"-->
+        <!--android:title="Nutrition Deficiency" />-->
+
+        <!--<item-->
+        <!--android:id="@+id/nav_prise"-->
+        <!--android:title="Prise" />-->
+        <!--<item-->
+        <!--android:id="@+id/nav_cowsmilk"-->
+        <!--android:title="Cow's Milk" />-->
+
+        <!--<item-->
+        <!--android:id="@+id/nav_prebiotices"-->
+        <!--android:title="Prebiotices" />-->
+
+        <!--<item-->
+        <!--android:id="@+id/nav_wheycasein"-->
+        <!--android:title="Whey Casein" />-->
+
+
+        <!--<item-->
+        <!--android:id="@+id/nav_lactose"-->
+        <!--android:title="Lactose" />-->
+
+        <!--<item-->
+        <!--android:id="@+id/nav_competition"-->
+        <!--android:title="Competition" />-->
+
+        <!--<item-->
+        <!--android:id="@+id/nav_preparationmethod"-->
+        <!--android:title="Preparation Method" />-->
+
+        <!--<item-->
+        <!--android:id="@+id/nav_article"-->
+        <!--android:title="Articles" />-->
+    </group>
+
+    <!--<item-->
+        <!--android:id="@+id/file"-->
+        <!--android:title="Language">-->
+        <!--&lt;!&ndash; "file" submenu &ndash;&gt;-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/eng"-->
+                <!--android:title="English" />-->
+            <!--<item-->
+                <!--android:id="@+id/ban"-->
+                <!--android:title="বাংলা" />-->
+        <!--</menu>-->
+
+    <!--</item>-->
+
+    <!--<group>-->
+
+        <!--<item-->
+            <!--android:icon="@drawable/ic_share_black_24dp"-->
+            <!--android:title="Share" />-->
+
+    <!--</group>-->
+
+
+    <!--<item android:title="Communicate">-->
+    <!--<menu>-->
+    <!--<item-->
+    <!--android:id="@+id/nav_share"-->
+    <!--android:icon="@drawable/ic_menu_share"-->
+    <!--android:title="Share" />-->
+    <!--<item-->
+    <!--android:id="@+id/nav_send"-->
+    <!--android:icon="@drawable/ic_menu_send"-->
+    <!--android:title="Send" />-->
+    <!--</menu>-->
+    <!--</item>-->
+
+
+</menu>
+
+
+

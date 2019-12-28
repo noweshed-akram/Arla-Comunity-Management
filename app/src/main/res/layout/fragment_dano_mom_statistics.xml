@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DanoMomStatistics.DanoMomStatistics">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/breastMilkFirstLY"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/lactose_pink_left"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="300dp"
+                android:src="@drawable/dano_mom_tin_good_pic" />
+
+
+            <TextView
+                android:id="@+id/danoMomStatisticPopUp"
+                android:layout_width="140dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:background="@drawable/article_tranfarent_bg_white"
+                android:text="@string/summary"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#3F51B5"
+                android:layout_marginTop="70dp"
+                android:layout_gravity="center"
+                />
+
+
+        </LinearLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/danoMomStatisticsViewPager"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/symbiotics_bg"
+            >
+
+
+        </android.support.v4.view.ViewPager>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

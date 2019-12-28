@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dano_mom_bg"
+    android:orientation="vertical"
+    tools:context=".DanoMom.DanoMomRDI">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="@string/recommended_dietary_intake"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/competition_table_blue_bg"
+                android:gravity="center"
+                android:text="@string/elements"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/competition_table_blue_bg"
+                android:gravity="center"
+                android:text="@string/amount_present_in_per_100gm_of_dano_mom"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/competition_table_blue_bg"
+                android:gravity="center"
+                android:text="@string/recommended_dietary_allowance_per_day_rda"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/competition_table_blue_bg"
+                android:gravity="center"
+                android:text="@string/of_rda_fulfilled_with_100g_of_dano_mom"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/folic_acid"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_600gm"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_600mg"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_100p"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/iron"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_27mg"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_27mg"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_100p"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/vitamin_d"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_15mg"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_15mg"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_100p"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/calcium"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_750mg"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_1000mg"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_75p"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/vitamin_b12"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_2mg"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_85mg"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_77p"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/vitamin_c"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_64mg"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_85mg"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_75p"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/protein"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_21mg"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_71mg"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_30p"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/zinc"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_7_7mg"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_12mg"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_40"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/carbohydrate"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_65_5mg"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_175mg"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_37p"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/dha"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_75mg"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_200mg"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_14p"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/dietary_fibers"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_4_3mg"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_30mg"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_37_5p"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

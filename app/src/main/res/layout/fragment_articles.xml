@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".Fragments.Articles">
+
+    <!--<ImageView-->
+        <!--android:layout_width="320dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:src="@drawable/right_bg"-->
+        <!--android:scaleType="fitStart"-->
+        <!--/>-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:src="@drawable/articles_right"-->
+        <!--android:scaleType="fitXY"-->
+        <!--/>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="360dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/article_left_green"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="320dp"-->
+            <!--android:layout_height="250dp"-->
+            <!--android:layout_marginTop="160dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:src="@drawable/deelac" />-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--&gt;-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="110dp"-->
+                <!--android:layout_height="160dp"-->
+                <!--android:background="@drawable/article_tranfarent_bg"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Deelac 1 BIB"-->
+                    <!--android:textColor="#000"-->
+                    <!--android:layout_marginTop="12dp"-->
+                    <!--android:textSize="17dp"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--/>-->
+
+                <!--<View-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="2dp"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:background="#9ECC52"/>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:text="Affordable pack\nFor infants aged:\n0 to 6 months\n180g at 220/="-->
+                    <!--android:textColor="#000" />-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="110dp"-->
+                <!--android:layout_height="160dp"-->
+                <!--android:background="@drawable/article_tranfarent_bg"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Deelac 1 Tin"-->
+                    <!--android:textColor="#000"-->
+                    <!--android:textSize="17dp"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_marginTop="12dp"-->
+                    <!--/>-->
+
+                <!--<View-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="2dp"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:background="#9ECC52"/>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:text="For infants aged:\n0 to 6 months\n400g at 530/="-->
+                    <!--android:textColor="#000" />-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="110dp"-->
+                <!--android:layout_height="160dp"-->
+                <!--android:background="@drawable/article_tranfarent_bg"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Deelac 2 Tin"-->
+                    <!--android:textColor="#000"-->
+                    <!--android:layout_marginTop="12dp"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:textSize="17dp" />-->
+
+                <!--<View-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="2dp"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:background="#9ECC52"/>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:text="For infants aged:\Above 6 months\n400g at 530/="-->
+                    <!--android:textColor="#000" />-->
+
+            <!--</LinearLayout>-->
+
+        <!--</LinearLayout>-->
+
+        <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:orientation="vertical"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@drawable/article_tranfarent_bg"&ndash;&gt;-->
+        <!--&lt;!&ndash;&gt;&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="Deelac 1 BIB"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textColor="#ffffff"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textSize="17dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;/>&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="Affordable pack\nFor infants aged:\n0 to 6 months\n180g at 220/="&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginTop="10dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textColor="#ffffff"&ndash;&gt;-->
+        <!--&lt;!&ndash;/>&ndash;&gt;-->
+
+        <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:orientation="vertical"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@drawable/article_tranfarent_bg"&ndash;&gt;-->
+        <!--&lt;!&ndash;&gt;&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="Deelac 1 BIB"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textColor="#ffffff"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textSize="17dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;/>&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="Affordable pack\nFor infants aged:\n0 to 6 months\n180g at 220/="&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginTop="10dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textColor="#ffffff"&ndash;&gt;-->
+        <!--&lt;!&ndash;/>&ndash;&gt;-->
+
+        <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:orientation="vertical"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@drawable/article_tranfarent_bg"&ndash;&gt;-->
+        <!--&lt;!&ndash;&gt;&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="Deelac 1 BIB"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textColor="#ffffff"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textSize="17dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;/>&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="Affordable pack\nFor infants aged:\n0 to 6 months\n180g at 220/="&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginTop="10dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textColor="#ffffff"&ndash;&gt;-->
+        <!--&lt;!&ndash;/>&ndash;&gt;-->
+
+        <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Articles"-->
+            <!--android:textSize="50sp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:textStyle="bold"-->
+
+
+            <!--/>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--&gt;-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="20dp"-->
+                <!--android:layout_height="10dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:src="@drawable/circle_shape_article"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:text="How Does a Cesarean Affect the Baby?"-->
+
+                <!--/>-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--&gt;-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="20dp"-->
+                <!--android:layout_height="10dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:src="@drawable/circle_shape_article"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:text="A study on mice to determine the level of immunity in C-Section\nborn vs natural born infants."-->
+
+                <!--/>-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--&gt;-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="20dp"-->
+                <!--android:layout_height="10dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:src="@drawable/circle_shape_article"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:text="BMS Code"-->
+
+                <!--/>-->
+
+        <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+
+
+
+</LinearLayout>

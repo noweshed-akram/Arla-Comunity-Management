@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/symbiotics_bg"
+    tools:context=".DanoMomDiet.DanoMomDiet">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#C6D74A"
+        android:padding="8dp"
+        android:text="গর্ভবতী ও প্রসূতি মায়ের প্রয়োজনীয় খাবারের ধরন ও পরিমাণ"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp" />
+
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="430dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="95dp"
+        android:background="@color/colorBlack"
+        android:rotation="25" />
+
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="430dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorBlack"
+        android:rotation="-25" />
+
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="70dp"
+        android:background="@color/colorBlack"
+        android:rotation="90" />
+
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorBlack"
+        android:rotation="90" />
+
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorBlack" />
+
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="85dp"
+        android:background="@color/colorBlack"
+        android:rotation="90" />
+
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:background="@color/colorBlack"
+        android:rotation="90" />
+
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="370dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="205dp"
+        android:background="@color/colorBlack"
+        android:rotation="90" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="210dp"
+            android:text="রান্নার তেল" />
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/oilbottle" />
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/medicine" />
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/vitamins_d_icon" />
+
+
+        <TextView
+
+
+            android:layout_width="wrap_content"
+
+
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginStart="20dp"
+
+
+            android:text="প্রতিদিন দুপুরে একটি করে আয়রন টেবলেট\nপ্রতিদিন সকালে একটি করে ক্যালসিয়াম টেবলেট" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+
+        android:layout_width="wrap_content"
+
+
+        android:layout_height="wrap_content"
+
+
+        android:layout_gravity="center"
+
+
+        android:layout_marginBottom="30dp"
+
+
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="৩ বার দুধ অথবা দুধের তৈরী খাবার(যেমনঃ দই পায়েস)" />
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/milk" />
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/cookies" />
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:rotation="90"
+            android:src="@drawable/rawfish" />
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/egg" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="২ বেলা মাছ/মাংস/ডিম/ডাল" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="৩ বেলা\nশাক সবজি" />
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="35dp"
+            android:src="@drawable/vegetables" />
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="25dp"
+            android:src="@drawable/banana" />
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/watermelon" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="২ বার ফল\n(মাঝারী একটা \nঅথবা ১ কাপ)" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="125dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:text="৩ বেলা \nভাত/রুটি" />
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/plainloaf" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/rice" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/ricedish" />
+
+        <ImageView
+
+
+            android:layout_width="40dp"
+
+            android:layout_height="40dp"
+
+            android:layout_marginStart="10dp"
+
+
+            android:src="@drawable/cookies" />
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/sweet" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="২ বার নাস্তা\n(চিঁড়া/মুড়ি/খই/\nবিস্কুট মিষ্টি জাতীয় খাবার)" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/waterglass" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/waterglass" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/waterglass" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/waterglass" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/waterglass" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/waterglass" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/waterglass" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/waterglass" />
+
+    </LinearLayout>
+
+
+    <TextView
+
+
+        android:layout_width="wrap_content"
+
+
+        android:layout_height="wrap_content"
+
+
+        android:layout_gravity="center"
+
+
+        android:layout_marginTop="215dp"
+
+
+        android:text="বিশুদ্ধ খাবার পানি ৮ গ্লাস"
+
+
+        android:textColor="@color/colorBlack"
+
+
+        android:textSize="15sp" />
+
+
+    <TextView
+
+
+        android:layout_width="wrap_content"
+
+
+        android:layout_height="wrap_content"
+
+
+        android:layout_gravity="center"
+
+
+        android:layout_marginTop="235dp"
+
+
+        android:text="And 2 Glasses of Dano Mom Daily"
+
+
+        android:textColor="@color/colorBlack"
+
+
+        android:textSize="20sp"
+
+
+        android:textStyle="bold" />
+
+
+</FrameLayout>

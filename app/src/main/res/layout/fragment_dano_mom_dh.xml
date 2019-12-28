@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dano_mom_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".DanoMom.DanoMomDHA">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            >
+
+            <ImageView
+                android:id="@+id/dhaicon"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:src="@drawable/dha_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="55dp"
+                android:text="DHA"
+                android:textColor="@color/colorBlack"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="600dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_toEndOf="@id/dhaicon"
+                android:gravity="center"
+                android:text="@string/dha_docosahexaenoic_acid_is_a_type_of_omega_3_fat"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:text="@string/benefit_of_dha"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="5dp"
+            android:lineSpacingExtra="2dp"
+            android:text="@string/helps_in_brain_and_vision_development_n_more_effective_before_birth_than_after_birth"
+
+            android:textColor="#000"
+
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="150dp"
+
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+
+            android:text="@string/dano_mom_contains_75mg_dha_100g"
+
+            android:textColor="#000"
+
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="450dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:background="@drawable/dhatext_bg">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/milk" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/milk" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="45dp"
+            android:text="="
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/an_excellent_source_of_dha_made_nfrom_ultra_refined_fish_oil_that_is_ntested_for_purity_and_nconcentration"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="95dp"
+            android:layout_marginRight="30dp"
+            android:background="#F5D7E4"
+            android:text="@string/dha_75mg_100g_powder"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="@string/based_on_the_recommendations_of_the_united_states_diatory_reference_intakes_dris_for_docosahexaenoic_acid_dha"
+        android:textColor="@color/colorBlack"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

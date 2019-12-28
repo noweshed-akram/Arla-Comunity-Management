@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="650dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".NutritionFragments.Section">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cesarean Deliveries in Bangladesh"
+        android:textColor="#000"
+        android:textSize="38sp"
+        android:layout_marginTop="15dp"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Breast Milk Section usually comes two to three days after delivery"
+        android:textSize="18sp"
+        />
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:scaleType="fitXY"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:src="@drawable/nutrition_deficiency_right_section_two"-->
+        <!--/>-->
+
+</LinearLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".Home">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageHome"-->
+        <!--android:layout_width="320dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:src="@drawable/home_one"-->
+        <!--android:scaleType="fitStart"-->
+        <!--/>-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:src="@drawable/home_two"-->
+        <!--android:layout_toRightOf="@+id/imageHome"-->
+        <!--android:scaleType="fitXY"-->
+        <!--/>-->
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="200dp"
+            android:src="@drawable/arla_logo_two"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:layout_marginTop="40dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:fontFamily="serif"
+            android:layout_marginLeft="20dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:lineHeight="18dp"
+            android:textSize="11sp"
+            android:text="Arla strated in 1880.\nArla Foods is a cooperative and Farmer owned dairy\ncompany, working with 11,200 farmers all over Europe"
+            />
+
+        <FrameLayout
+            android:layout_width="270dp"
+            android:layout_height="190dp">
+
+            <VideoView
+                android:id="@+id/videoplayHome"
+                android:layout_width="260dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                />
+
+
+        </FrameLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/right_bg">
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="320dp"
+            android:background="@drawable/home_background_shape"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            >
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="200dp"-->
+                <!--android:src="@drawable/dano"-->
+                <!--/>-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Dano Mom"
+                    android:textColor="#292828"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+
+                    />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/arrow"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nutrition Solution for Pre-Pregnent,\nPregnent and Lactating Mothers."
+                android:lineHeight="18dp"
+                android:textSize="11sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+
+                />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/deelacLinearLayoutHome"
+            android:layout_width="250dp"
+            android:layout_height="320dp"
+            android:background="@drawable/home_background_shape"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/deelac"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Deelac"
+                    android:textColor="#292828"
+                    android:textSize="30sp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+
+                    />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/arrow"
+                    android:layout_marginLeft="10dp"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineHeight="18dp"
+                android:textSize="11sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:text="The only infant formula with prebiotics;\nBest Nutrition solution for infants who\ndon't receive breast milk."
+
+                />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

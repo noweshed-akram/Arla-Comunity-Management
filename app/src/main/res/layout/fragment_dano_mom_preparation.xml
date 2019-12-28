@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dano_mom_bg"
+    android:gravity="center"
+    tools:context=".DanoMom.DanoMomPreparation">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/preparation_method"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            />
+
+        <TextView
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:text="১. টিন খোলার আগে ভালো করে হাত ধুয়ে নিন।"
+            android:textSize="20sp"
+
+            />
+
+        <TextView
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:text="২. ২০০ মি.লি ঈষদুষ্ণ অথবা স্বাভাবিক তাপমাত্রার পানিতে ৬ চামচ(৫০গ্রাম) পরিমান ডানো মম মিস্ক পাউডার দিন। আরো ঘন করতে চাইলে দুধের পরিমান বাড়িয়ে নিন।"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hand_watching"
+                android:layout_gravity="center"
+                />
+
+
+            <LinearLayout
+                android:layout_width="510dp"
+                android:layout_height="110dp"
+                android:orientation="horizontal"
+                android:background="@drawable/dhatext_bg"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                >
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/spoon_small"
+                    />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/spoon_small"
+                    />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/spoon_small"
+                    />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/spoon_small"
+                    />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/spoon_small"
+                    />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/spoon_small"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:textStyle="bold"
+                    android:textSize="35sp"
+                    android:layout_margin="8dp"
+                    />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/milk"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="="
+                    android:textStyle="bold"
+                    android:textSize="35sp"
+                    android:layout_margin="8dp"
+                    />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/milk"
+                    />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/home_bg"
+    tools:context=".Home">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/danoMomLinearLayoutHome"
+            android:layout_width="580px"
+            android:layout_height="300px"
+            android:orientation="vertical"
+            android:background="@drawable/home_dano_mom_bg"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dano Mom"
+                    android:textStyle="bold"
+                    android:textColor="#252525"
+                    android:layout_gravity="center"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    />
+
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="@string/nutrition_solution_for_pre_pregnent_npregnent_and_lactating_mothers"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/deelacLinearLayoutHome"
+            android:layout_width="580px"
+            android:layout_height="300px"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/home_deelac_bg"
+            >
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                >
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Deelac"
+                    android:textStyle="bold"
+                    android:textColor="#252525"
+                    android:textSize="50sp"
+                    android:layout_gravity="center"
+                    />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/the_only_infant_formula_with_prebiotics_nbest_nutrition_solution_for_infants_who_ndon_t_receive_breast_milk"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="50dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#000"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineHeight="22dp"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:text="@string/arla_strated_in_1880_narla_foods_is_a_cooperative_and_farmer_owned_dairy_ncompany_working_with_11_200_farmers_all_over_europe"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Care in every step"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                />
+
+            <ImageView
+                android:id="@+id/videoThumbBtn"
+                android:layout_width="180dp"
+                android:layout_height="200px"
+                android:src="@drawable/thumbnil"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="320dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="130dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:layout_marginTop="40dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/arla_logo_two"  />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginTop="40dp"-->
+            <!--android:fontFamily="serif"-->
+            <!--android:text="@string/about"-->
+            <!--android:textColor="#000"-->
+            <!--android:textSize="25sp"-->
+            <!--android:textStyle="bold"-->
+
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginTop="6dp"-->
+            <!--android:lineHeight="18dp"-->
+            <!--android:text="@string/arla_strated_in_1880_narla_foods_is_a_cooperative_and_farmer_owned_dairy_ncompany_working_with_11_200_farmers_all_over_europe"-->
+            <!--android:textSize="11sp" />-->
+
+        <!--<FrameLayout-->
+            <!--android:layout_width="310dp"-->
+            <!--android:layout_height="190dp"-->
+            <!--android:layout_gravity="center">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/videoThumbBtn"-->
+                <!--android:layout_width="280dp"-->
+                <!--android:layout_height="150dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:scaleType="fitXY"-->
+                <!--android:src="@drawable/nutrition_deficiency_right" />-->
+
+        <!--</FrameLayout>-->
+
+
+    <!--</LinearLayout>-->
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@drawable/right_bg"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/danoMomLinearLayoutHome"-->
+            <!--android:layout_width="250dp"-->
+            <!--android:layout_height="350dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginLeft="50dp"-->
+            <!--android:background="@drawable/home_background_shape"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="200dp"-->
+                <!--android:src="@drawable/dano" />-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:fontFamily="serif"-->
+                    <!--android:text="@string/dano_mom"-->
+                    <!--android:textColor="#292828"-->
+                    <!--android:textSize="30sp"-->
+                    <!--android:textStyle="bold"-->
+
+                    <!--/>-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/danoArrow"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="30dp"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_marginLeft="30dp"-->
+                    <!--android:src="@drawable/arrow" />-->
+
+            <!--</LinearLayout>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginTop="25dp"-->
+                <!--android:lineHeight="18dp"-->
+                <!--android:text="@string/nutrition_solution_for_pre_pregnent_npregnent_and_lactating_mothers"-->
+                <!--android:textSize="11sp"-->
+
+                <!--/>-->
+
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/deelacLinearLayoutHome"-->
+            <!--android:layout_width="250dp"-->
+            <!--android:layout_height="350dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginLeft="35dp"-->
+            <!--android:background="@drawable/home_background_shape"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="200dp"-->
+                <!--android:paddingRight="8dp"-->
+                <!--android:src="@drawable/deelac" />-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:fontFamily="serif"-->
+                    <!--android:text="@string/deelac"-->
+                    <!--android:textColor="#292828"-->
+                    <!--android:textSize="30sp"-->
+                    <!--android:textStyle="bold"-->
+
+                    <!--/>-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/delacArrow"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="30dp"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_marginLeft="30dp"-->
+                    <!--android:src="@drawable/arrow" />-->
+
+            <!--</LinearLayout>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginTop="25dp"-->
+                <!--android:lineHeight="18dp"-->
+                <!--android:text="@string/the_only_infant_formula_with_prebiotics_nbest_nutrition_solution_for_infants_who_ndon_t_receive_breast_milk"-->
+                <!--android:textSize="11sp" />-->
+
+
+        <!--</LinearLayout>-->
+
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>

@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:background="@drawable/dano_mom_bg"
+
+    android:orientation="horizontal"
+
+    tools:context=".DanoMom.DanoMomNutrition">
+
+    <!--<LinearLayout-->
+
+    <!--android:id="@+id/articleFirstPartLY"-->
+
+    <!--android:layout_width="320dp"-->
+
+    <!--android:layout_height="wrap_content"-->
+
+    <!--android:background="@drawable/lactose_pink_left"-->
+
+    <!--android:orientation="vertical">-->
+
+    <!--&lt;!&ndash;<Button&ndash;&gt;-->
+
+    <!--&lt;!&ndash;android:id="@+id/articleCloseBT"&ndash;&gt;-->
+
+    <!--&lt;!&ndash;android:layout_width="25dp"&ndash;&gt;-->
+
+    <!--&lt;!&ndash;android:layout_height="25dp"&ndash;&gt;-->
+
+    <!--&lt;!&ndash;android:layout_gravity="right"&ndash;&gt;-->
+
+    <!--&lt;!&ndash;android:background="@drawable/close_show_bg"&ndash;&gt;-->
+
+    <!--&lt;!&ndash;android:text="X"&ndash;&gt;-->
+
+    <!--&lt;!&ndash;android:textColor="#fff" />&ndash;&gt;-->
+
+    <!--<ImageView-->
+
+    <!--android:layout_width="200dp"-->
+
+    <!--android:layout_height="180dp"-->
+
+    <!--android:layout_gravity="center"-->
+
+    <!--android:layout_marginTop="70dp"-->
+
+    <!--android:src="@drawable/dano_mom_tin" />-->
+
+    <!--<LinearLayout-->
+
+    <!--android:layout_width="wrap_content"-->
+
+    <!--android:layout_height="wrap_content"-->
+
+    <!--android:layout_gravity="center">-->
+
+    <!--<LinearLayout-->
+
+    <!--android:layout_width="95dp"-->
+
+    <!--android:layout_height="120dp"-->
+
+    <!--android:background="@drawable/article_tranfarent_bg_white"-->
+
+    <!--android:orientation="vertical">-->
+
+    <!--<TextView-->
+
+    <!--android:layout_width="wrap_content"-->
+
+    <!--android:layout_height="wrap_content"-->
+
+    <!--android:layout_marginLeft="5dp"-->
+
+    <!--android:layout_marginTop="10dp"-->
+
+    <!--android:text="@string/nutrition_solution_for_pre_pregnent_npregnent_and_lactating_mothers"-->
+
+    <!--android:textColor="#000"-->
+
+    <!--android:textSize="10sp" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+
+    <!--android:layout_width="95dp"-->
+
+    <!--android:layout_height="120dp"-->
+
+    <!--android:layout_marginLeft="8dp"-->
+
+    <!--android:background="@drawable/article_tranfarent_bg_white"-->
+
+    <!--android:orientation="vertical">-->
+
+    <!--<TextView-->
+
+    <!--android:layout_width="wrap_content"-->
+
+    <!--android:layout_height="wrap_content"-->
+
+    <!--android:layout_marginLeft="5dp"-->
+
+    <!--android:layout_marginTop="10dp"-->
+
+    <!--android:text="@string/_2_glasses_100g_of_dano_mom_will_fulfil_100_rda_of_iron_vitamin_d_and_folic_acid"-->
+
+    <!--android:textColor="#000"-->
+
+    <!--android:textSize="10sp" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+
+    <!--android:layout_width="95dp"-->
+
+    <!--android:layout_height="120dp"-->
+
+    <!--android:layout_marginLeft="8dp"-->
+
+    <!--android:background="@drawable/article_tranfarent_bg_white"-->
+
+    <!--android:orientation="vertical">-->
+
+    <!--<TextView-->
+
+    <!--android:layout_width="wrap_content"-->
+
+    <!--android:layout_height="wrap_content"-->
+
+    <!--android:layout_marginLeft="5dp"-->
+
+    <!--android:layout_marginTop="10dp"-->
+
+    <!--android:text="@string/has_dha_which_helps_in_vision_and_brain_development"-->
+
+    <!--android:textColor="#000"-->
+
+    <!--android:textSize="10sp" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+
+    <!--android:layout_width="wrap_content"-->
+
+    <!--android:layout_height="wrap_content"-->
+
+    <!--android:layout_gravity="center"-->
+
+    <!--android:layout_marginTop="20dp"-->
+
+    <!--android:orientation="horizontal">-->
+
+    <!--<TextView-->
+
+    <!--android:layout_width="100dp"-->
+
+    <!--android:layout_height="120dp"-->
+
+    <!--android:layout_marginLeft="5dp"-->
+
+    <!--android:padding="10dp"-->
+
+    <!--android:layout_marginTop="10dp"-->
+
+    <!--android:background="@drawable/article_tranfarent_bg_white"-->
+
+    <!--android:text="@string/has_both_prebiotics_n_amp_probiotics_to_nensure_gut_comfort"-->
+
+    <!--android:textColor="#000"-->
+
+    <!--android:layout_marginRight="10dp"-->
+
+    <!--android:textSize="10sp" />-->
+
+    <!--<TextView-->
+
+    <!--android:layout_width="100dp"-->
+
+    <!--android:layout_height="120dp"-->
+
+    <!--android:layout_marginLeft="5dp"-->
+
+    <!--android:padding="10dp"-->
+
+    <!--android:background="@drawable/article_tranfarent_bg_white"-->
+
+    <!--android:layout_marginTop="10dp"-->
+
+    <!--android:text="@string/helps_to_improve_the_quality_of_the_breast_milk_by_providing_nutrition_to_the_mother"-->
+
+    <!--android:textColor="#000"-->
+
+    <!--android:textSize="10sp" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginTop="25dp"
+
+            android:text="@string/nutrition_that_mothers_need_and_why"
+
+            android:textColor="#000"
+
+            android:textSize="30sp"
+
+            android:textStyle="bold" />
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+
+            android:layout_marginTop="20dp"
+
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/summery_transfarent_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:src="@drawable/calcium_icon" />
+
+                <TextView
+
+                    android:layout_width="170dp"
+                    android:layout_height="160dp"
+                    android:padding="10dp"
+                    android:text="@string/calcium_is_needed_for_the_healthy_development_of_the_baby_s_teeth_bones_heart_nerves_and_muscles_when_a_pregnant_woman_does_not_consume_enough_calcium_it_is_taken_from_her_bones_for_the_baby_s_sake_vitamin_d_helps_absorb_calcium"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/summery_transfarent_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:src="@drawable/vitamins_d_icon" />
+
+                <TextView
+
+                    android:layout_width="170dp"
+                    android:layout_height="160dp"
+                    android:padding="10dp"
+                    android:text="@string/vitamin_d_helps_absorb_calcium"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/summery_transfarent_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:src="@drawable/dha_icon"
+
+                    />
+
+                <TextView
+
+                    android:layout_width="170dp"
+                    android:layout_height="160dp"
+                    android:padding="10dp"
+                    android:text="@string/dha_help_build_the_brain_and_eyes_of_your_fetus_baby_s_brain_starts_developing_in_the_womb_and_dha_is_most_effective_for_the_baby_when_in_womb"
+                    android:textColor="#000"
+
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+
+            android:layout_marginTop="20dp"
+
+            android:orientation="horizontal">
+
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:background="@drawable/summery_transfarent_bg"-->
+            <!--&gt;-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:src="@drawable/vitamins_c_icon"-->
+            <!--android:layout_marginTop="5dp"-->
+
+            <!--/>-->
+
+            <!--<TextView-->
+            <!--android:layout_width="200dp"-->
+            <!--android:layout_height="240dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:padding="10dp"-->
+            <!--android:text="@string/vitamin_c_help_increase_absorption_of_iron_from_meals"-->
+            <!--android:textColor="#000"-->
+            <!--android:textSize="15sp" />-->
+
+
+            <!--</LinearLayout>-->
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/summery_transfarent_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:src="@drawable/prebiotices_icon_three"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:layout_width="380dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/iron_is_important_for_delivering_oxygen_to_all_cells_in_the_body_pregnant_women_need_more_iron_since_their_blood_volume_is_increasing_this_is_particularly_important_during_the_third_trimester_low_levels_of_iron_during_early_and_mid_pregnancy_may_cause_iron_deficiency_anemia_which_doubles_the_risk_of_premature_delivery_and_low_birth_weight_vitamin_c_help_increase_absorption_of_iron_from_meals"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="380dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/vitamin_c_help_increase_absorption_of_iron_from_meals"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/summery_transfarent_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:src="@drawable/folic_icon" />
+
+                <TextView
+                    android:layout_width="190dp"
+                    android:layout_height="172dp"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/folic_acid_intake_before_and_during_the_early_months_of_pregnancy_is_essential_for_preventing_baby_s_birth_defects_researchers_found_that_those_women_with_low_average_daily_folic_acid_consumption_i_e_less_than_240_micrograms_a_day_and_or_low_blood_folic_acid_levels_at_28_weeks_of_pregnancy_had_twice_the_incidence_of_preterm_delivery_and_low_birth_weight_babies_as_those_getting_adequate_amounts_of_this_vitamin"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/rdipopup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/article_tranfarent_bg_white"
+            android:padding="8dp"
+            android:text="@string/recommended_dietary_intake"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

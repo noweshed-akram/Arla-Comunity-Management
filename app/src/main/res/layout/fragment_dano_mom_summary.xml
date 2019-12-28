@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/symbiotics_bg"
+    tools:context=".DanoMom.DanoMomSummary">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:background="@drawable/summery_transfarent_bg"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/folic_icon" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="700dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/summery_transfarent_bg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/nutrition_supplement_for_pre_pregnant_pregnant_and_breast_feeding_mothers"
+                    android:textColor="#000"
+                    android:textSize="25sp"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                android:gravity="center"
+                android:background="@drawable/summery_transfarent_bg"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/vitamins_d_icon" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="700dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/summery_transfarent_bg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/_2_glasses_100g_of_dano_mom_will_fulfil_100_rda_of_iron_vitamin_d_and_folic_acid"
+                    android:textColor="#000"
+                    android:textSize="25sp"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:background="@drawable/summery_transfarent_bg"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/dha_icon" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="700dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/summery_transfarent_bg"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/has_dha_which_helps_in_vision_and_brain_development"
+                    android:textColor="#000"
+                    android:textSize="25sp"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:background="@drawable/summery_transfarent_bg"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/prebiotices_icon_one" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="700dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/summery_transfarent_bg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/has_both_prebiotics_n_amp_probiotics_to_nensure_gut_comfort"
+                    android:textColor="#000"
+                    android:textSize="25sp"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:background="@drawable/summery_transfarent_bg"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/breastfeeding_mom" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="700dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/summery_transfarent_bg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/helps_to_improve_the_quality_of_the_breast_milk_by_providing_nutrition_to_the_mother"
+                    android:textColor="#000"
+                    android:textSize="25sp"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

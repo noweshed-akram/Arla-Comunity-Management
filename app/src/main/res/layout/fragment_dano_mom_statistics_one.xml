@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DanoMomStatistics.DanoMomStatisticsOne">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="470dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/tends_in_nutritional_status_of_women_15_49_years_n2004_2011"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp">
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:progress="68"
+                    android:progressDrawable="@drawable/progressbar_status5dp" />
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="15dp"
+                    android:progress="60"
+                    android:progressDrawable="@drawable/progressbar_status_yellow5dp" />
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:progress="48"
+                    android:progressDrawable="@drawable/progressbar_status_sky5dp" />
+
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:progress="32"
+                    android:layout_marginLeft="60dp"
+                    android:progressDrawable="@drawable/progressbar_status5dp" />
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:progress="30"
+                    android:layout_marginLeft="75dp"
+                    android:progressDrawable="@drawable/progressbar_status_yellow5dp" />
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:progress="26"
+                    android:layout_marginLeft="90dp"
+                    android:progressDrawable="@drawable/progressbar_status_sky5dp" />
+
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:progress="18"
+                    android:layout_marginLeft="120dp"
+                    android:progressDrawable="@drawable/progressbar_status5dp" />
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:progress="24"
+                    android:layout_marginLeft="135dp"
+                    android:progressDrawable="@drawable/progressbar_status_yellow5dp" />
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:progress="34"
+                    android:layout_marginLeft="150dp"
+                    android:progressDrawable="@drawable/progressbar_status_sky5dp" />
+
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:progress="18"
+                    android:layout_marginLeft="180dp"
+                    android:progressDrawable="@drawable/progressbar_status5dp" />
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:progress="24"
+                    android:layout_marginLeft="195dp"
+                    android:progressDrawable="@drawable/progressbar_status_yellow5dp" />
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:progress="34"
+                    android:layout_marginLeft="210dp"
+                    android:progressDrawable="@drawable/progressbar_status_sky5dp" />
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:progress="18"
+                    android:layout_marginLeft="235dp"
+                    android:progressDrawable="@drawable/progressbar_status5dp" />
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:progress="24"
+                    android:layout_marginLeft="250dp"
+                    android:progressDrawable="@drawable/progressbar_status_yellow5dp" />
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:progress="34"
+                    android:layout_marginLeft="265dp"
+                    android:progressDrawable="@drawable/progressbar_status_sky5dp" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/_15_19"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/_20_24"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/_25_29"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/_30_34"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/_35"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:background="#216372" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:text="@string/_2004_dhs"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:background="#DAE150" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:text="@string/_2007_dhs"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:background="#1CBADA" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_2011_dhs"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="500dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/tends_in_maternal_underweight_by_age_2004_2011"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginTop="40dp">
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:progress="38"
+                    android:scaleY="7"
+                    android:progressDrawable="@drawable/progressbar_status5dp" />
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleY="7"
+                    android:layout_marginLeft="15dp"
+                    android:progress="40"
+                    android:progressDrawable="@drawable/progressbar_status_yellow5dp" />
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="30dp"
+                    android:progress="28"
+                    android:scaleY="7"
+                    android:progressDrawable="@drawable/progressbar_status_sky5dp" />
+
+
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:progress="32"
+                    android:scaleY="7"
+                    android:layout_marginLeft="60dp"
+                    android:progressDrawable="@drawable/progressbar_status5dp" />
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:progress="30"
+                    android:scaleY="7"
+                    android:layout_marginLeft="75dp"
+                    android:progressDrawable="@drawable/progressbar_status_yellow5dp" />
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:progress="26"
+                    android:scaleY="7"
+                    android:layout_marginLeft="90dp"
+                    android:progressDrawable="@drawable/progressbar_status_sky5dp" />
+
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:progress="18"
+                    android:scaleY="7"
+                    android:layout_marginLeft="115dp"
+                    android:progressDrawable="@drawable/progressbar_status5dp" />
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:progress="24"
+                    android:scaleY="7"
+                    android:layout_marginLeft="130dp"
+                    android:progressDrawable="@drawable/progressbar_status_yellow5dp" />
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:progress="34"
+                    android:scaleY="7"
+                    android:layout_marginLeft="145dp"
+                    android:progressDrawable="@drawable/progressbar_status_sky5dp" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textAlignment="center"
+                    android:text="@string/underweightdm"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/short_stature"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:textAlignment="center"
+                    android:text="@string/overweight_obese"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:background="#216372" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/_2004_dhs"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:background="#DAE150" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/_2007_dhs"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:background="#1CBADA" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_2011_dhs"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="20sp"-->
+        <!--android:textColor="@color/colorBlack"-->
+        <!--android:text="@string/dhs_demographic_and_health_survey"/>-->
+
+</LinearLayout>

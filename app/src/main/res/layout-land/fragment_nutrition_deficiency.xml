@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.NutritionDeficiency">
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="600dp"-->
+    <!--android:orientation="horizontal"-->
+    <!--&gt;-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="400dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="50dp"-->
+    <!--android:src="@drawable/nutrition_deficincy_left_side" />-->
+
+    <!--<android.support.v4.view.ViewPager-->
+    <!--android:id="@+id/nutritionViewPager"-->
+    <!--android:layout_width="800dp"-->
+    <!--android:layout_height="600dp">-->
+
+
+    <!--</android.support.v4.view.ViewPager>-->
+
+
+    <!--</LinearLayout>-->
+
+
+    <!--<android.support.design.widget.TabLayout-->
+    <!--android:id="@+id/nutritioun_tab_layout"-->
+    <!--android:layout_width="800dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="#efbcbc"-->
+    <!--android:elevation="20dp"-->
+    <!--android:minHeight="?attr/actionBarSize"-->
+    <!--app:tabMode="scrollable"-->
+    <!--app:tabGravity="center"-->
+    <!--app:tabTextColor="#FFF"-->
+    <!--app:tabSelectedTextColor="#fa0606"-->
+    <!--android:layout_marginLeft="108dp"-->
+    <!--&gt;-->
+
+    <!--</android.support.design.widget.TabLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="612dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/nutritionDefeciencyFirstLY"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/breastmilk_left_sidebar_bg"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/nutritionDefeciencyCloseBT"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="right"
+                android:background="@drawable/close_show_bg"
+                android:text="X"
+                android:textColor="#fff" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/deelec_contains"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="70dp"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:background="@drawable/article_tranfarent_bg"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/prebiotics"
+                                android:textColor="#000"
+                                android:textSize="13sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="FOS"
+                                android:textColor="#000"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="GOS"
+                                android:textColor="#000"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="70dp"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/article_tranfarent_bg"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/lactose"
+                                android:textColor="#000"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="@string/_100"
+                                android:textColor="#000"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="70dp"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:background="@drawable/article_tranfarent_bg"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/vitamins"
+                                android:textColor="#000"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="@string/_17"
+                                android:textColor="#000"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="70dp"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/article_tranfarent_bg"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/minerals"
+                                android:textColor="#000"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="@string/_12"
+                                android:textColor="#000"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="@string/whey_casein_ratio"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="70dp"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="23dp"
+                        android:background="@drawable/article_tranfarent_bg"
+                        >
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp">
+
+                            <com.hookedonplay.decoviewlib.DecoView
+                                android:id="@+id/NDdeco"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_centerInParent="true"
+                                android:scaleType="fitXY"
+                                app:dv_lineWidth="5dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:text="@string/_70_30"
+                                android:textColor="#000"
+                                android:textSize="10sp"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/nutritionDeficiencyinstructionAndPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/instruction_and_price"
+                android:gravity="center"
+                android:background="@drawable/article_tranfarent_bg_white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#3F51B5"
+                android:layout_marginTop="140dp"
+                android:layout_gravity="center"
+                />
+
+
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/nutritionViewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+            </android.support.v4.view.ViewPager>
+
+            <TextView
+                android:id="@+id/NutritionDeficiencyShow"
+                android:layout_width="20dp"
+                android:layout_height="70dp"
+                android:textSize="10sp"
+                android:text="S\nH\nO\nW"
+                android:background="@drawable/green_show_btn"
+                android:gravity="center"
+                android:layout_marginTop="130dp"
+                android:textColor="#fff"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <!--<android.support.design.widget.TabLayout-->
+    <!--android:id="@+id/nutritioun_tab_layout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="#ece7e7"-->
+    <!--android:elevation="20dp"-->
+    <!--android:minHeight="?attr/actionBarSize"-->
+    <!--app:tabMode="scrollable"-->
+    <!--app:tabGravity="center"-->
+    <!--app:tabTextColor="#2d2424"-->
+    <!--app:tabSelectedTextColor="#47ff1e"-->
+    <!--&gt;-->
+
+    <!--</android.support.design.widget.TabLayout>-->
+
+
+</LinearLayout>

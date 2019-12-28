@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.paperdb:paperdb:2.5@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5c43ed8a84e9a8f0daf358e4799b9250/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5c43ed8a84e9a8f0daf358e4799b9250/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.paperdb/paperdb/2.5/19687a212ed45e41eee7f842ca12666d208d0581/paperdb-2.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

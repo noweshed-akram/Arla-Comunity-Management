@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ref_sum_whey_casein_bg"
+    android:orientation="vertical"
+    tools:context=".WheyCaseinFragments.WheyCaseinOne">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/whey_casein"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/proteins_in_milk"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/when_milk_is_high_in_whey_it_is_easy_to_digest"
+                android:textColor="#000"
+                android:textSize="22sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="160dp"
+                android:orientation="vertical">
+
+                <!--<ImageView-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="15dp"-->
+                <!--android:src="@drawable/whey_casein_radio_whey" />-->
+
+                <!--<ImageView-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="15dp"-->
+                <!--android:layout_marginLeft="50dp"-->
+                <!--android:src="@drawable/whey_casein_radio_casein" />-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:background="#FFFFFF"
+                        android:layout_gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Whey"
+                        android:textSize="14sp"
+                        android:textColor="#000"
+                        android:layout_marginLeft="10dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    >
+
+                    <View
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:background="#FFF7AF"
+                        android:layout_gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Casein"
+                        android:textSize="15sp"
+                        android:textColor="#000"
+                        android:layout_marginLeft="10dp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="195dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="55dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="170dp"
+                        android:src="@drawable/whey_casein_glass_one" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/cow_milk"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="170dp"
+                        android:src="@drawable/whey_casein_glass_two" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Deelac 1"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="170dp"
+                        android:src="@drawable/whey_casein_glass_three" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Deelac 2"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+            <LinearLayout
+                android:layout_width="230dp"
+                android:layout_height="140dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/article_tranfarent_bg_white"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <com.hookedonplay.decoviewlib.DecoView
+                            android:id="@+id/wcdeco1"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:scaleType="fitXY"
+                            app:dv_lineWidth="8dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="@string/_60_40"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="10sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mature_milk"
+                        android:textColor="#009205"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textSize="22sp" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/the_milk_for_the_first_n15_days"
+                    android:textColor="#181717"
+                    android:layout_gravity="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="230dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="40dp"
+                android:gravity="center"
+                android:background="@drawable/article_tranfarent_bg_white"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <com.hookedonplay.decoviewlib.DecoView
+                            android:id="@+id/wcdeco2"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:scaleType="fitXY"
+                            app:dv_lineWidth="8dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="@string/_50_50"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="10sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mature_milk"
+                        android:textColor="#009205"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="22sp" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/the_milk_after_n6_months"
+                    android:textColor="#181717"
+                    android:layout_gravity="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <!--<ImageView-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:layout_marginLeft="80dp"-->
+            <!--android:src="@drawable/arla_nutrition" />-->
+        </LinearLayout>
+
+        <!--<ImageView-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:src="@drawable/arla_nutrition"-->
+        <!--android:layout_marginLeft="290dp"-->
+        <!--android:layout_gravity="right"-->
+        <!--/>-->
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

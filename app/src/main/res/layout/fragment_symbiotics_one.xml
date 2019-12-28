@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DanoMomSymbiotics.SymbioticsOne">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/symbiotic_prebiotics_probiotics"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:text="@string/prebiotics_are_the_good_bacteria_that_fight_the_germs_reducing_the_risk_of_diseases_and_makes_the_immunity_system_stronger"
+            android:textColor="#2B2626"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/but_probiotics_can_die_with_time"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/however_probiotics_fiber_does_not_get_affected_by_heat_digestive_juices_or_time"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/prebiotics_help_grow_probiotics_and_reduce_the_growth_of_bad_bacteria_making_the_gut_helthier_and_ensuring_stronger_immune_system"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="500dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="#E9E9E9"
+            android:gravity="center"
+            android:text="@string/dano_mom_proplustm_contains_three_probiotic_strains_abc_lactobacillus_acidophilus_nbifidobacterium_lactis_and_the_arla_patented_lactobacillus_casei_f19"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

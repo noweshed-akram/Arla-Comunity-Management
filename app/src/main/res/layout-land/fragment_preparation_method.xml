@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.PreparationMethod">
+
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:src="@drawable/preparation_method"-->
+    <!--android:scaleType="fitXY"-->
+    <!--/>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/preparation_method"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/_1_spoon_powder_for_30ml_water"
+        android:textSize="18sp" />
+
+    <!--<ImageView-->
+    <!--android:layout_width="830dp"-->
+    <!--android:layout_height="280dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--android:scaleType="fitXY"-->
+    <!--android:src="@drawable/preparation_method_graph" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="105dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/competition_table_blue_bg"
+                android:gravity="center"
+                android:text="@string/age_limit"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/competition_table_blue_bg"
+                    android:gravity="center"
+                    android:text="@string/measurement_for_each_preparation"
+                    android:textColor="#fff"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/competition_table_blue_bg"
+                        android:gravity="center"
+                        android:text="@string/water_nmeasurement_ml"
+                        android:textColor="#fff"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="109dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="2dp"
+                        android:background="@drawable/competition_table_blue_bg"
+                        android:gravity="center"
+                        android:text="@string/milk_quantity"
+                        android:textColor="#fff"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/competition_table_blue_bg"
+                android:gravity="center"
+                android:text="@string/feeding_frequency_nper_day"
+                android:textColor="#fff"
+                android:textSize="15sp"
+
+                />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/competition_table_blue_bg"
+                android:gravity="center"
+                android:text="@string/per_day_nconsumption_n_gm"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/competition_table_blue_bg"
+                android:gravity="center"
+                android:text="@string/per_week_nconsumption_n_gm"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/competition_table_blue_bg"
+                android:gravity="center"
+                android:text="@string/per_month_nconsumption_n_gm"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/competition_table_blue_bg"
+                android:gravity="center"
+                android:text="@string/per_month_nconsumption_n_tin"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/competition_table_blue_bg"
+                android:gravity="center"
+                android:text="@string/cost_per_serving"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/competition_table_blue_bg"
+                android:gravity="center"
+                android:text="@string/cost_per_month"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="105dp"
+                android:layout_height="50dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_0_2_weeks"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="109dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/preparation_method_yellow_bd"
+                android:gravity="center"
+
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_60"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/milk" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="109dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/spoon" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_8"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_69"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_482"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_1926"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_5"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/bdt_11"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/bdt_2552"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="105dp"
+                android:layout_height="50dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_2_4_weeks"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="109dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/preparation_method_yellow_bd"
+                android:gravity="center"
+
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_90"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/milk" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="109dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/spoon" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/spoon" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/spoon" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_7"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_90"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_632"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_2528"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_6"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/bdt_17"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/bdt_3350"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="105dp"
+                android:layout_height="50dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_1_2_month"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="109dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/preparation_method_yellow_bd"
+                android:gravity="center"
+
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_120"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/milk" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="109dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/spoon" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/spoon" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/spoon" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/spoon" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_6"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_103"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_722"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_2890"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_7"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/bdt_23"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/bdt_3829"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="105dp"
+                android:layout_height="50dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_2_4_months"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="109dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/preparation_method_yellow_bd"
+                android:gravity="center"
+
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_150"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/milk" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="109dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/spoon" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/spoon" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/spoon" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/spoon" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/spoon" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_5"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_108"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_753"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_3010"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_8"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/bdt_28"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/bdt_3988"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="105dp"
+                android:layout_height="50dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_4_6_months"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="109dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/preparation_method_yellow_bd"
+                android:gravity="center"
+
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_180"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/milk" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="109dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/spoon" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/spoon" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/spoon" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/spoon" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/spoon" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/spoon" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_5"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_129"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_903"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_3612"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/_9"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/bdt_34"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/compeitition_table_white_bg"
+                android:gravity="center"
+                android:text="@string/bdt_4786"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:text="Deelac 1"
+            android:background="@drawable/summery_transfarent_bg"
+            android:textColor="#101010"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/_400gm_tin"
+            android:background="@drawable/summery_transfarent_bg"
+            android:textColor="#101010"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="145dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/spoon_size_4_3"
+            android:background="@drawable/summery_transfarent_bg"
+            android:textColor="#101010"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BreastMilkFragment.BreastMilkTwo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="200dp"-->
+        <!--android:scaleType="fitXY"-->
+        <!--android:src="@drawable/breastfedding_mom_with_baby" />-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ratio_of_whey_to_casein"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:text="@string/the_stages_of_breast_milk"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="185dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="185dp"
+                android:gravity="center"
+                android:background="@drawable/article_tranfarent_bg_white"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                    <com.hookedonplay.decoviewlib.DecoView
+                        android:id="@+id/bmdeco1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_centerInParent="true"
+                        android:scaleType="fitXY"
+                        app:dv_lineWidth="8dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/_90_10"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/colostrum"
+                    android:layout_gravity="center"
+                    android:textColor="#000"
+                    android:textSize="25sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="@string/the_milk_for_the_first_n1_5_days" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="185dp"
+                android:gravity="center"
+                android:background="@drawable/article_tranfarent_bg_white"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                    <com.hookedonplay.decoviewlib.DecoView
+                        android:id="@+id/bmdeco2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_centerInParent="true"
+                        android:scaleType="fitXY"
+                        app:dv_lineWidth="8dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/_80_20"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/transitional_nbrest_milk"
+                    android:textColor="#000"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="23sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:text="@string/the_milk_for_the_first_n5_15_days" />
+            </LinearLayout>
+            <!--<LinearLayout-->
+            <!--android:layout_width="130dp"-->
+            <!--android:layout_height="185dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:background="@drawable/article_tranfarent_bg_white"-->
+            <!--android:orientation="vertical">-->
+            <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--&gt;-->
+            <!--<com.hookedonplay.decoviewlib.DecoView-->
+            <!--android:id="@+id/bmdeco3"-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:scaleType="fitXY"-->
+            <!--app:dv_lineWidth="8dp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:text="@string/_60_40"-->
+            <!--android:textColor="@color/colorBlack"-->
+            <!--android:textSize="14sp"-->
+            <!--android:textStyle="bold" />-->
+            <!--</RelativeLayout>-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:text="@string/mature_milk"-->
+            <!--android:textColor="#000"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:textSize="20sp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:textSize="16sp"-->
+            <!--android:text="@string/the_milk_for_the_first_n15_days" />-->
+            <!--</LinearLayout>-->
+            <!--<LinearLayout-->
+            <!--android:layout_width="130dp"-->
+            <!--android:layout_height="185dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:background="@drawable/article_tranfarent_bg_white"-->
+            <!--android:orientation="vertical">-->
+            <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--&gt;-->
+            <!--<com.hookedonplay.decoviewlib.DecoView-->
+            <!--android:id="@+id/bmdeco4"-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:scaleType="fitXY"-->
+            <!--app:dv_lineWidth="8dp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:text="@string/_50_50"-->
+            <!--android:textColor="@color/colorBlack"-->
+            <!--android:textSize="14sp"-->
+            <!--android:textStyle="bold" />-->
+            <!--</RelativeLayout>-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:text="@string/mature_milk"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:textColor="#000"-->
+            <!--android:textSize="20sp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:textSize="16sp"-->
+            <!--android:text="@string/the_milk_after_n6_months" />-->
+            <!--</LinearLayout>-->
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="185dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="185dp"
+                android:gravity="center"
+                android:background="@drawable/article_tranfarent_bg_white"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                    <com.hookedonplay.decoviewlib.DecoView
+                        android:id="@+id/bmdeco3"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_centerInParent="true"
+                        android:scaleType="fitXY"
+                        app:dv_lineWidth="8dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/_60_40"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/mature_milk"
+                    android:textColor="#000"
+                    android:layout_gravity="center"
+                    android:textSize="25sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:text="@string/the_milk_for_the_first_n15_days" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="185dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:background="@drawable/article_tranfarent_bg_white"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                    <com.hookedonplay.decoviewlib.DecoView
+                        android:id="@+id/bmdeco4"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_centerInParent="true"
+                        android:scaleType="fitXY"
+                        app:dv_lineWidth="8dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/_50_50"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/mature_milk"
+                    android:layout_gravity="center"
+                    android:textColor="#000"
+                    android:textSize="25sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:text="@string/the_milk_after_n6_months" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/BreastMilkTwoShow"
+        android:layout_width="45dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="175dp"
+        android:background="@drawable/green_show_btn"
+        android:gravity="center"
+        android:text="Show"
+        android:visibility="gone"
+        android:textColor="#fff" />
+
+
+</RelativeLayout>

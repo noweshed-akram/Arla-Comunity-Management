@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/danomom_breast_milk_mom_bg"
+    android:orientation="horizontal"
+    tools:context=".DanoMom.DanoMomBreastMilk">
+
+
+    <LinearLayout
+        android:layout_width="750dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/breast_milk_provides_the_best_nutrition_to_child"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/summery_transfarent_bg"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/for_babies_breast_milk_can_protect_against_infections_and_reduce_the_rates_of_later_health_problems_including_diabetes_obesity_and_asthma"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/benefits_of_breast_feeding_for_child"
+            android:textColor="@color/colorBlack"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableStart="@drawable/bulletpoint"
+            android:drawablePadding="10dp"
+            android:text="@string/can_help_to_protect_against_infections"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableStart="@drawable/bulletpoint"
+            android:drawablePadding="10dp"
+            android:text="@string/baby_can_easily_digest_the_proteins"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableStart="@drawable/bulletpoint"
+            android:drawablePadding="10dp"
+            android:text="@string/calcium_amp_iron_can_easily_be_absorbed"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableStart="@drawable/bulletpoint"
+            android:drawablePadding="10dp"
+            android:text="@string/has_the_right_nutrients_in_the_right_amount_and_balance"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/benefits_of_breast_feeding_to_mothers"
+            android:textColor="@color/colorBlack"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableStart="@drawable/bulletpoint"
+            android:drawablePadding="10dp"
+            android:text="@string/bleeding_stops_more_quickly_after_delivery_as_it_helps_uterus_to_contract"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableStart="@drawable/bulletpoint"
+            android:drawablePadding="10dp"
+            android:text="@string/can_reduce_the_risk_of_breast_amp_ovarian_cancer"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableStart="@drawable/bulletpoint"
+            android:drawablePadding="10dp"
+            android:text="@string/helps_to_strengthen_the_bond_with_child"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp" />
+
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:layout_marginTop="3dp"-->
+        <!--android:background="@drawable/summery_transfarent_bg"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:textSize="22sp"-->
+        <!--android:textColor="#000"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:text="@string/for_mothers_breastfeeding_helps_the_uterus_to_contract_and_bleeding_to_cease_more_quickly_nafter_delivery_breastfeeding_can_reduce_the_risk_of_breast_and_ovarian_cancer" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:layout_marginTop="3dp"-->
+        <!--android:textSize="22sp"-->
+        <!--android:textColor="#000"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="@drawable/summery_transfarent_bg"-->
+        <!--android:text="@string/breast_feeding_also_helps_to_strengthen_the_bond_of_the_child_with_mother" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="85dp"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:textSize="22sp"-->
+        <!--android:layout_marginTop="3dp"-->
+        <!--android:textColor="#000"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="@drawable/summery_transfarent_bg"-->
+        <!--android:text="@string/breast_milk_is_the_best_source_of_nutrition_for_a_new_baby_the_proteins_in_breast_milk_are_nmore_easily_digested_the_calcium_and_iron_in_breast_milk_are_also_more_easily_absorbed" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="85dp"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:layout_marginTop="3dp"-->
+        <!--android:textSize="22sp"-->
+        <!--android:textColor="#000"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="@drawable/summery_transfarent_bg"-->
+        <!--android:text="@string/breast_milk_should_be_the_only_food_for_babies_until_first_6_months_as_it_is_a_well_researched_nfact_that_breastfed_babies_are_smarter_and_healthier_also_it_is_the_best_food_for_their_ntummies_as_it_is_easily_digestible_and_absorbed" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:layout_marginTop="3dp"-->
+        <!--android:textSize="22sp"-->
+        <!--android:textColor="#000"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="@drawable/summery_transfarent_bg"-->
+        <!--android:text="@string/breast_milk_has_the_right_nutrients_in_the_right_amount_and_balance_for_the_babies_which_nleads_to_a_happy_and_healthy_tummy" />-->
+
+
+    </LinearLayout>
+
+</LinearLayout>
